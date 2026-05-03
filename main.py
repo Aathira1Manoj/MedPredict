@@ -69,7 +69,7 @@ app = FastAPI(title="Disease Prediction API + AI Meal Suggestion")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],   # allow frontend
-    allow_credentials=False,
+    allow_credentials=True,
     allow_methods=["*"],   # allow OPTIONS, POST, GET
     allow_headers=["*"],
 )
@@ -162,9 +162,40 @@ def get_csv_diets(disease_code: int) -> dict:
 # GROQ API CONFIG
 # =========================================================
 
-GROQ_API_KEY = "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"
+GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
 MODEL_NAME = "qwen/qwen3-32b"
+
+def generate_disease_summary(disease: str) -> str:
+    """
+    Returns a short 2-3 sentence plain-language summary of the disease.
+    """
+    prompt = f"""
+IMPORTANT:
+- Do NOT include any reasoning
+- Do NOT include <think> and </think> tags
+- Only return final answer
+
+In 2-3 concise sentences, explain what "{disease}" is in simple, patient-friendly language.
+Cover: what it is, common causes or triggers, and one key thing the patient should know.
+Do not use bullet points. Do not include headers. Plain paragraph only.
+"""
+    headers = {
+        "Authorization": f"Bearer {GROQ_API_KEY}",
+        "Content-Type": "application/json"
+    }
+    payload = {
+        "model": MODEL_NAME,
+        "messages": [{"role": "user", "content": prompt}]
+    }
+    try:
+        response = requests.post(GROQ_URL, headers=headers, json=payload, timeout=15)
+        if response.status_code == 200:
+            return response.json()["choices"][0]["message"]["content"].strip()
+        return ""
+    except Exception:
+        return ""
+
 
 def generate_meal_plan(disease: str, diet_items: list[str], region: str = "India", diet_preference: str = "Vegetarian") -> str:
     """
@@ -256,11 +287,15 @@ def predict(data: PatientData):
     csv_diet_entry = get_csv_diets(top_disease_code)
     csv_diets = csv_diet_entry["diets"]
 
-    # Step 2: LLM elaborates ONLY on those CSV-sourced diet items
+    # Step 2: Generate disease summary
+    disease_summary = generate_disease_summary(top_disease_name)
+
+    # Step 3: LLM elaborates ONLY on those CSV-sourced diet items
     meal_plan = generate_meal_plan(top_disease_name, csv_diets, data.region, data.diet_preference)
 
     return {
         "predictions": results,
+        "disease_summary": disease_summary,
         "diet_recommendations": {
             "disease_code": top_disease_code,
             "disease": csv_diet_entry["disease"],
