@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://medipredict-9st2.onrender.com";
 
 // Convert snake_case pkl column → readable label: "joint_pain" → "Joint pain"
 const pklToLabel = (col) =>
@@ -600,7 +600,7 @@ function AboutPage({ onBack, user, onLogout }) {
 
 export default function MediPredict() {
   const [step, setStep] = useState(0);
-  const [age, setAge] = useState("");
+  const [age, setAge] = useState("25");
   const [sex, setSex] = useState("Male");
   const [region, setRegion] = useState("Kerala, India");
   const [dietPref, setDietPref] = useState("Vegetarian");
@@ -1292,6 +1292,21 @@ export default function MediPredict() {
               </div>
             </div>
 
+            {/* ── Disease Summary card ── */}
+            {result.disease_summary && (
+              <div style={{
+                background: "#fff", borderRadius: 20, border: "1px solid #e0f7fa",
+                padding: "20px 24px", marginBottom: 20,
+                boxShadow: "0 4px 20px #06b6d412",
+              }}>
+                <div style={{ display: "flex", alignItems: "center", gap: 10, marginBottom: 12 }}>
+                  <div style={{ width: 30, height: 30, borderRadius: 9, background: "linear-gradient(135deg,#06b6d4,#3b82f6)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 15 }}>ℹ️</div>
+                  <div style={{ fontSize: 11, fontWeight: 700, color: "#94a3b8", letterSpacing: 1 }}>ABOUT THIS CONDITION</div>
+                </div>
+                <p style={{ fontSize: 14, lineHeight: 1.8, color: "#334155", margin: 0 }}>{cleanMealPlan(result.disease_summary)}</p>
+              </div>
+            )}
+
             {/* ── Other predictions — compact horizontal row ── */}
             {result.predictions.length > 1 && (
               <div style={{ marginBottom: 20 }}>
@@ -1360,7 +1375,7 @@ export default function MediPredict() {
 
             {/* Actions */}
             <div className="detail-nav-btns" style={{ display: "flex", gap: 10 }}>
-              <button className="action-btn" onClick={() => { setStep(0); setResult(null); setSelected([]); setAge(""); setSearch(""); setSex("Male"); setRegion("Kerala, India"); setDietPref("Vegetarian"); }} style={{
+              <button className="action-btn" onClick={() => { setStep(0); setResult(null); setSelected([]); setAge("25"); setSearch(""); setSex("Male"); setRegion("Kerala, India"); setDietPref("Vegetarian"); }} style={{
                 flex: 1, padding: "13px", borderRadius: 22, border: "1.5px solid #b2ebf2",
                 background: "#fff", color: "#0891b2", fontWeight: 700, cursor: "pointer", fontSize: 13,
               }}>Start Over</button>
