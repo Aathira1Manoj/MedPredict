@@ -1,0 +1,777 @@
+disease,diet_1,diet_2,diet_3,diet_4,diet_5,disease_code
+allergy,elimination diet,omega-3-rich foods,vitamin c-rich foods,quercetin-rich foods,probiotics,29
+drug reaction,antihistamine diet,omega-3-rich foods,vitamin c-rich foods,quercetin-rich foods,probiotics,205
+diabetes,low-glycemic diet,fiber-rich foods,lean proteins,healthy fats,low-fat dairy,178
+migraine,migraine diet,low-tyramine diet,caffeine withdrawal,hydration,magnesium-rich foods,449
+malaria,malaria diet,hydration,high-calorie diet,soft and bland foods,oral rehydration solutions,435
+tuberculosis,tb diet,high-calorie diet,soft and bland foods,hydration,protein-rich foods,725
+common cold,cold diet,hydration,warm fluids,rest,honey and lemon tea,137
+pneumonia,pneumonia diet,high-calorie diet,soft and bland foods,hydration,protein-rich foods,565
+heart attack,heart-healthy diet,low-sodium foods,fruits and vegetables,whole grains,lean proteins,305
+varicose veins,varicose veins diet,high-fiber diet,fruits and vegetables,whole grains,low-sodium foods,748
+hypothyroidism,hypothyroidism diet,iodine-rich foods,selenium-rich foods,fruits and vegetables,whole grains,355
+hypoglycemia,hypoglycemia diet,complex carbohydrates,protein-rich snacks,fiber-rich foods,healthy fats,351
+acne,acne diet,low-glycemic diet,hydration,fruits and vegetables,probiotics,8
+urinary tract infection,uti diet,hydration,cranberry juice,probiotics,vitamin c-rich foods,735
+psoriasis,psoriasis diet,anti-inflammatory diet,omega-3-rich foods,fruits and vegetables,whole grains,604
+impetigo,impetigo diet,antibiotic treatment,fruits and vegetables,hydration,protein-rich foods,364
+stroke,dash diet,low-sodium diet,healthy fats,fruits and vegetables,whole grains,678
+celiac disease,gluten-free diet,whole grains,fruits and vegetables,lean proteins,dairy alternatives,102
+lyme disease,antibiotics,anti-inflammatory diet,omega-3 fatty acids,probiotics,hydration,427
+multiple sclerosis,low-fat,high-fiber diet,omega-3 fatty acids,fruits and vegetables,lean proteins,459
+carpal tunnel syndrome,anti-inflammatory diet,omega-3 fatty acids,vitamin b6,magnesium,whole grains,99
+lymphoma,balanced diet,hydration,nutritional supplements,high-calorie foods,small,432
+myopia,eye-healthy diet,omega-3 fatty acids,vitamin a,vitamin c,zinc,467
+vitamin b12 deficiency,vitamin b12-rich foods,lean proteins,dairy products,fortified cereals,supplements if necessary,757
+melanoma,balanced diet,sun protection measures,vitamin d,fruits and vegetables,avoid excessive alcohol,442
+autism,balanced diet,high-fiber foods,lean proteins,fruits and vegetables,whole grains,66
+sepsis,high-protein diet,hydration,antibiotics,vitamin c,zinc,645
+iron deficiency anemia,iron-rich foods,vitamin c,lean meats,legumes,nuts and seeds,398
+strep throat,hydration,soft foods,rest,antibiotics,warm fluids,675
+tonsillitis,hydration,soft foods,rest,over-the-counter pain relief,balanced diet,710
+rheumatic fever,antibiotics,supportive care,rest,hydration,heart-healthy diet,624
+glaucoma,low-sodium diet,hydration,regular eye exams,avoid tobacco,physical activity,290
+leukemia,hydration,high-calorie,nutrient-dense foods,antibiotics,blood transfusions,416
+eczema,avoid triggers,hydration,emollients,topical steroids,antihistamines,216
+chickenpox,comfort measures,hydration,antihistamines,calamine lotion,avoid scratching,112
+diabetic retinopathy,blood sugar control,healthy fats,antioxidants,regular eye exams,balanced diet,183
+chlamydia,antibiotics,partner treatment,hydration,rest,avoid sexual contact,113
+endometriosis,pain management,healthy fats,fruits and vegetables,whole grains,lean proteins,224
+cerebral palsy,physical therapy,occupational therapy,speech therapy,hydration,high-calorie foods,107
+pelvic inflammatory disease,antibiotics,partner treatment,rest,pain relief,balanced diet,539
+necrotizing fasciitis,surgical debridement,intravenous antibiotics,supportive care,hydration,nutritional support,471
+mumps,supportive care,hydration,rest,pain relief,soft foods,460
+mononucleosis,rest,hydration,pain relief,antibiotics,soft foods,455
+carbon monoxide poisoning,remove from exposure,high-flow oxygen therapy,supportive care,hydration,rest,95
+colorectal cancer,surgery,chemotherapy,radiation therapy,balanced diet,hydration,136
+scurvy,vitamin c supplementation,fruits and vegetables,hydration,rest,balanced diet,639
+osteomyelitis,antibiotics,surgical debridement,hydration,rest,balanced diet,518
+asthma,avoid triggers,inhaled medications,hydration,regular exercise,balanced diet,55
+peritonitis,antibiotics,surgical intervention,hydration,rest,nutritional support,547
+gonorrhea,antibiotics,partner treatment,hydration,rest,avoid sexual contact,293
+narcolepsy,sleep hygiene,medications,regular sleep schedule,hydration,balanced diet,469
+diabetes,blood sugar control,healthy eating,regular exercise,medications,monitoring,178
+common cold,hydration,rest,saline nasal sprays,antihistamines,chicken soup,137
+presbyopia,eyeglasses,contact lenses,surgery,hydration,balanced diet,592
+scabies,topical scabicides,hydration,laundry precautions,rest,balanced diet,631
+osteoarthritis,exercise,weight management,physical therapy,hydration,anti-inflammatory diet,515
+neuralgia,pain management,physical therapy,hydration,rest,balanced diet,474
+laryngitis,rest,hydration,humidified air,avoid irritants,balanced diet,414
+astigmatism,eyeglasses,contact lenses,surgery,hydration,balanced diet,56
+epilepsy,antiepileptic medications,seizure precautions,hydration,balanced diet,regular sleep,230
+muscular dystrophy,physical therapy,occupational therapy,respiratory support,hydration,balanced diet,462
+irritable bowel syndrome,dietary changes,fiber supplements,probiotics,hydration,antispasmodic medications,399
+bunion,proper footwear,padding or splinting,hydration,rest,avoid high heels,91
+scarlet fever,antibiotics,supportive care,hydration,rest,soft foods,633
+dementia,memory care programs,support groups,hydration,healthy fats,fruits and vegetables,171
+genital herpes,antiviral medications,hydration,pain relief,rest,avoid sexual contact during outbreaks,288
+multiple myeloma,chemotherapy,immunotherapy,bone marrow transplant,hydration,balanced diet,458
+appendicitis,surgical removal of appendix,antibiotics,hydration,rest,balanced diet,49
+anxiety,therapy (cbt),medications,hydration,regular exercise,balanced diet,44
+lactose intolerance,dairy avoidance,lactase enzyme supplements,calcium-rich non-dairy foods,hydration,balanced diet,413
+syphilis,antibiotics,partner treatment,hydration,rest,avoid sexual contact,686
+myasthenia gravis,medications,physical therapy,hydration,rest,balanced diet,463
+pericarditis,treat underlying cause,rest,hydration,medications,balanced diet,542
+trichinosis,anthelmintic medications,cooking meat thoroughly,hydration,balanced diet,rest,720
+schizophrenia,antipsychotic medications,therapy (cbt),hydration,healthy diet,regular exercise,634
+ectopic pregnancy,medical intervention,surgery,not specified,not specified,not specified,214
+preeclampsia,bed rest,low-sodium diet,monitor blood pressure,not specified,not specified,584
+pulmonary embolism,anticoagulants,supportive care,not specified,not specified,not specified,609
+rocky mountain spotted fever,antibiotics,supportive care,not specified,not specified,not specified,626
+varicose veins,compression stockings,healthy diet,regular exercise,not specified,not specified,748
+sciatica,physical therapy,anti-inflammatory diet,not specified,not specified,not specified,635
+pinguecula,avoid irritants,eye drops,not specified,not specified,not specified,555
+fibromyalgia,balanced diet,low-inflammatory foods,regular exercise,not specified,not specified,246
+sarcoidosis,balanced diet,healthy fats,fruits and vegetables,not specified,not specified,630
+lung cancer,balanced diet,high-calorie foods,protein-rich foods,small,frequent meals,425
+chalazion,warm compresses,good eyelid hygiene,not specified,not specified,not specified,111
+corneal abrasion,antibiotic eye drops,not specified,not specified,not specified,not specified,152
+obesity,low-calorie diet,regular exercise,healthy fats,fruits and vegetables,lean proteins,482
+amblyopia,corrective lenses,not specified,not specified,not specified,not specified,33
+chronic obstructive pulmonary disease (copd),balanced diet,healthy fats,fruits and vegetables,lean proteins,whole grains,125
+lice,topical treatments,good hygiene practices,not specified,not specified,not specified,418
+osteoporosis,calcium-rich foods,vitamin d-rich foods,weight-bearing exercises,not specified,not specified,519
+depression,omega-3 rich foods,leafy greens,whole grains,nuts and seeds,fermented foods,174
+liver disease,low-fat foods,high-fiber vegetables,fruits,whole grains,lean protein,423
+chronic kidney disease,low-potassium foods,low-phosphorus foods,low-sodium foods,controlled protein diet,white rice,123
+gastritis,plain yogurt,bananas,ginger tea,oatmeal,boiled vegetables,283
+anemia,iron-rich foods,vitamin c foods,leafy greens,legumes,red meat,38
+panic disorder,avoid caffeine,magnesium-rich foods,omega-3-rich foods,tryptophan-rich foods,balanced diet,531
+vocal cord polyp,adequate hydration,avoid spicy foods,low-acid diet,anti-inflammatory diet,warm herbal teas,761
+turner syndrome,calcium-rich foods,vitamin d-rich foods,low-cholesterol diet,folate-rich foods,adequate hydration,727
+cryptorchidism,zinc-rich foods,vitamin d-rich foods,antioxidant-rich foods,balanced diet,avoid endocrine disruptors,160
+poisoning due to ethylene glycol,adequate hydration,electrolyte-rich foods,liver-protective foods,avoid alcohol,bland diet,573
+atrophic vaginitis,phytoestrogen-rich foods,omega-3-rich foods,calcium-rich foods,vitamin d-rich foods,probiotic-rich foods,63
+fracture of the hand,calcium-rich foods,vitamin d-rich foods,protein-rich diet,anti-inflammatory diet,adequate hydration,264
+cellulitis or abscess of mouth,soft diet,vitamin c-rich foods,zinc-rich foods,immune-boosting foods,adequate hydration,103
+eye alignment disorder,vitamin a-rich foods,omega-3-rich fish,antioxidant-rich diet,zinc-rich foods,adequate hydration,239
+headache after lumbar puncture,adequate hydration,caffeine in moderation,electrolyte-rich foods,balanced diet,avoid alcohol,304
+pyloric stenosis,small frequent meals,thickened feeds (infants),high-calorie diet,electrolyte-rich foods,adequate hydration,615
+salivary gland disorder,adequate hydration,soft bland diet,vitamin c-rich foods,avoid acidic foods,warm soups,629
+osteochondrosis,calcium-rich foods,vitamin d-rich foods,omega-3-rich fish,protein-rich diet,anti-inflammatory diet,517
+injury to the knee,anti-inflammatory diet,collagen-boosting foods,calcium-rich foods,protein-rich diet,adequate hydration,380
+metabolic disorder,balanced diet,low-glycemic foods,high-fiber diet,lean proteins,adequate hydration,447
+vaginitis,probiotic-rich foods,low-sugar diet,vitamin c-rich foods,adequate hydration,anti-inflammatory diet,745
+sick sinus syndrome,low-caffeine diet,magnesium-rich foods,potassium-rich foods,heart-healthy diet,adequate hydration,649
+tinnitus of unknown cause,low-sodium diet,zinc-rich foods,magnesium-rich foods,avoid caffeine,omega-3-rich fish,708
+eating disorder,balanced nutritious diet,regular meal schedule,adequate calorie intake,nutrient-dense foods,support from dietitian,213
+transient ischemic attack,heart-healthy diet,low-sodium diet,omega-3-rich fish,fruits and vegetables,avoid excess alcohol,718
+pyelonephritis,adequate hydration,cranberry products,vitamin c-rich foods,probiotics,low-sodium diet,614
+rotator cuff injury,anti-inflammatory diet,protein-rich diet,vitamin c-rich foods,collagen-boosting foods,omega-3-rich fish,628
+chronic pain disorder,anti-inflammatory diet,omega-3-rich fish,magnesium-rich foods,antioxidant-rich foods,low-sugar diet,127
+problem during pregnancy,folate-rich foods,iron-rich foods,calcium-rich foods,protein-rich diet,adequate hydration,598
+liver cancer,low-fat diet,high-protein diet,antioxidant-rich foods,avoid alcohol,adequate hydration,422
+atelectasis,high-protein diet,adequate hydration,antioxidant-rich foods,vitamin c-rich foods,small frequent meals,57
+injury to the hand,anti-inflammatory diet,protein-rich diet,calcium-rich foods,vitamin c-rich foods,adequate hydration,378
+choledocholithiasis,low-fat diet,high-fiber diet,small frequent meals,avoid fried foods,adequate hydration,115
+injury to the hip,anti-inflammatory diet,calcium-rich foods,vitamin d-rich foods,protein-rich diet,adequate hydration,379
+cirrhosis,low-sodium diet,high-protein diet,small frequent meals,avoid alcohol,zinc-rich foods,132
+thoracic aortic aneurysm,heart-healthy diet,low-sodium diet,omega-3-rich fish,antioxidant-rich foods,avoid saturated fats,698
+subdural hemorrhage,anti-inflammatory diet,vitamin k-consistent diet,adequate hydration,antioxidant-rich foods,adequate protein,683
+ischemia of the bowel,low-fat diet,small frequent meals,adequate hydration,anti-inflammatory diet,soft bland foods,400
+fetal alcohol syndrome,nutrient-dense diet,b-vitamin-rich foods,iron-rich foods,omega-3-rich foods,avoid alcohol,243
+injury to the abdomen,soft diet initially,high-protein diet,anti-inflammatory foods,adequate hydration,small frequent meals,374
+acute pancreatitis,clear liquids initially,low-fat diet,small frequent meals,high-carbohydrate foods,avoid alcohol,17
+thrombophlebitis,omega-3-rich fish,anti-inflammatory diet,vitamin k-consistent diet,adequate hydration,antioxidant-rich foods,702
+foreign body in the vagina,probiotic-rich foods,vitamin c-rich foods,adequate hydration,anti-inflammatory diet,balanced diet,258
+restless leg syndrome,iron-rich foods,magnesium-rich foods,folate-rich foods,avoid caffeine,adequate hydration,620
+emphysema,high-calorie diet,small frequent meals,anti-inflammatory diet,omega-3-rich fish,adequate hydration,218
+cysticercosis,immune-boosting foods,anti-inflammatory diet,adequate hydration,antioxidant-rich foods,high-protein diet,164
+induced abortion,iron-rich foods,folate-rich foods,protein-rich diet,vitamin c-rich foods,adequate hydration,367
+teething syndrome,cool soft foods,chilled cucumber sticks,smooth purees,cold yogurt,adequate hydration,689
+infectious gastroenteritis,bland diet (brat),oral rehydration,probiotics,adequate hydration,electrolyte-rich foods,369
+acute sinusitis,adequate hydration,vitamin c-rich foods,anti-inflammatory foods,warm soups and broths,spicy foods,19
+substance-related mental disorder,nutrient-dense diet,b-vitamin-rich foods,protein-rich diet,antioxidant-rich foods,avoid alcohol,684
+postpartum depression,omega-3-rich fish,folate-rich foods,iron-rich foods,tryptophan-rich foods,b-vitamin-rich foods,583
+coronary atherosclerosis,heart-healthy diet,low-saturated fat,omega-3-rich fish,whole grains,fruits and vegetables,154
+spondylitis,anti-inflammatory diet,omega-3-rich fish,calcium-rich foods,vitamin d-rich foods,adequate hydration,667
+pituitary adenoma,balanced diet,low-sodium if needed,calcium-rich foods,vitamin d-rich foods,adequate hydration,557
+uterine fibroids,low-fat diet,high-fiber diet,cruciferous vegetables,iron-rich foods,avoid excess red meat,739
+idiopathic nonmenstrual bleeding,iron-rich foods,vitamin k-rich foods,vitamin c-rich foods,anti-inflammatory diet,adequate hydration,361
+ovarian torsion,anti-inflammatory diet,adequate hydration,iron-rich foods,protein-rich diet,balanced diet,525
+retinopathy due to high blood pressure,low-sodium diet,antioxidant-rich diet,omega-3-rich fish,leafy green vegetables,adequate hydration,622
+vaginal yeast infection,antifungal diet,probiotics,low-sugar diet,garlic,vitamin c-rich foods,743
+mastoiditis,immune-boosting foods,vitamin c-rich foods,zinc-rich foods,anti-inflammatory diet,adequate hydration,440
+lung contusion,high-protein diet,vitamin c-rich foods,antioxidant-rich foods,adequate hydration,anti-inflammatory diet,426
+hypertrophic obstructive cardiomyopathy (hocm),low-sodium diet,adequate hydration,heart-healthy diet,avoid alcohol,small frequent meals,349
+ingrown toe nail,anti-inflammatory diet,zinc-rich foods,vitamin c-rich foods,adequate hydration,balanced diet,370
+pulmonary eosinophilia,anti-inflammatory diet,omega-3-rich fish,antioxidant-rich foods,adequate hydration,vitamin d-rich foods,610
+corneal disorder,vitamin a-rich foods,omega-3-rich fish,antioxidant-rich diet,zinc-rich foods,adequate hydration,153
+foreign body in the gastrointestinal tract,clear liquid diet,soft foods,high-fiber diet,adequate hydration,avoid hard foods,255
+endophthalmitis,immune-boosting foods,vitamin a-rich foods,zinc-rich foods,anti-inflammatory diet,adequate hydration,225
+intestinal malabsorption,nutrient-dense diet,small frequent meals,fat-soluble vitamins,easily digestible foods,adequate hydration,391
+viral warts,immune-boosting foods,zinc-rich foods,vitamin c-rich foods,antioxidant-rich diet,adequate hydration,755
+hyperhidrosis,avoid spicy foods,avoid caffeine,adequate hydration,low-sodium diet,anti-inflammatory diet,341
+pilonidal cyst,high-fiber diet,adequate hydration,anti-inflammatory diet,vitamin c-rich foods,zinc-rich foods,554
+crushing injury,high-protein diet,iron-rich foods,vitamin c-rich foods,antioxidant-rich foods,adequate hydration,158
+normal pressure hydrocephalus,low-sodium diet,anti-inflammatory diet,adequate hydration,omega-3-rich fish,antioxidant-rich foods,480
+alopecia,iron-rich foods,biotin-rich foods,protein-rich diet,zinc-rich foods,omega-3-rich fish,31
+hashimoto thyroiditis,selenium-rich foods,anti-inflammatory diet,omega-3-rich fish,gluten-free if needed,avoid raw goitrogens,301
+flat feet,anti-inflammatory diet,calcium-rich foods,vitamin d-rich foods,weight management diet,adequate hydration,247
+nonalcoholic liver disease (nash),low-fructose diet,low-saturated fat,high-fiber diet,omega-3-rich fish,avoid alcohol,478
+hemarthrosis,iron-rich foods,vitamin k-rich foods,vitamin c-rich foods,anti-inflammatory diet,adequate hydration,312
+pelvic organ prolapse,high-fiber diet,adequate hydration,calcium-rich foods,protein-rich diet,weight management diet,540
+fracture of the arm,calcium-rich foods,vitamin d-rich foods,protein-rich diet,vitamin c-rich foods,anti-inflammatory diet,260
+coagulation (bleeding) disorder,vitamin k-rich foods,iron-rich foods,vitamin c-rich foods,folate-rich foods,adequate hydration,133
+intracranial hemorrhage,low-sodium diet,anti-inflammatory diet,adequate hydration,antioxidant-rich foods,avoid alcohol,395
+hyperkalemia,low-potassium diet,avoid high-potassium foods,low-sodium diet,adequate hydration,balanced diet,342
+cornea infection,vitamin a-rich foods,zinc-rich foods,vitamin c-rich foods,omega-3-rich fish,immune-boosting foods,151
+abscess of the lung,high-protein diet,immune-boosting foods,vitamin c-rich foods,adequate hydration,antioxidant-rich foods,3
+dengue fever,adequate hydration,papaya leaf extract,fruits and vegetables,high-calorie diet,protein-rich foods,172
+chronic sinusitis,anti-inflammatory diet,adequate hydration,spicy foods,vitamin c-rich foods,avoid dairy if sensitive,130
+cholesteatoma,balanced diet,vitamin c-rich foods,zinc-rich foods,immune-boosting foods,adequate hydration,116
+volvulus,low-fiber diet,small frequent meals,clear liquids,soft easy-to-digest foods,adequate hydration,762
+injury to the finger,anti-inflammatory diet,calcium-rich foods,protein-rich diet,vitamin c-rich foods,adequate hydration,377
+poisoning due to analgesics,adequate hydration,liver-protective foods,avoid alcohol,electrolyte-rich foods,bland diet,567
+atrial fibrillation,low-sodium diet,potassium-rich foods,magnesium-rich foods,omega-3-rich fish,avoid excess caffeine,60
+pinworm infection,high-fiber diet,adequate hydration,garlic,probiotic-rich foods,avoid excess sugar,556
+urethral valves,adequate hydration,low-sodium diet,anti-inflammatory diet,balanced diet,avoid bladder irritants,732
+open wound of the neck,soft diet if needed,high-protein diet,vitamin c-rich foods,zinc-rich foods,adequate hydration,505
+achalasia,soft and liquid diet,small frequent meals,avoid hard foods,warm liquids,nutrient-dense smoothies,7
+conductive hearing loss,zinc-rich foods,vitamin d-rich foods,magnesium-rich foods,folate-rich foods,anti-inflammatory diet,141
+abdominal hernia,high-fiber diet,low-fat foods,small frequent meals,avoid constipating foods,adequate hydration,1
+marijuana abuse,balanced diet,omega-3-rich foods,b-vitamin-rich foods,antioxidant-rich foods,adequate hydration,438
+cryptococcosis,immune-boosting foods,antifungal diet,adequate hydration,high-protein diet,antioxidant-rich foods,159
+indigestion,small frequent meals,avoid trigger foods,low-acid diet,ginger tea,adequate hydration,366
+bursitis,anti-inflammatory diet,omega-3-rich fish,vitamin e-rich foods,avoid refined sugar,adequate hydration,93
+esophageal cancer,soft diet,high-protein diet,antioxidant-rich foods,small frequent meals,adequate hydration,233
+pulmonary congestion,low-sodium diet,fluid restriction,heart-healthy diet,omega-3-rich fish,avoid alcohol,608
+juvenile rheumatoid arthritis,anti-inflammatory diet,omega-3-rich fish,calcium-rich foods,vitamin d-rich foods,antioxidant-rich foods,405
+actinic keratosis,antioxidant-rich diet,beta-carotene foods,vitamin c-rich foods,omega-3-rich fish,green tea,9
+acute otitis media,immune-boosting foods,vitamin c-rich foods,zinc-rich foods,anti-inflammatory diet,adequate hydration,16
+tuberous sclerosis,balanced diet,anti-inflammatory foods,omega-3-rich fish,antioxidant-rich foods,adequate hydration,726
+empyema,high-protein diet,vitamin c-rich foods,immune-boosting foods,adequate hydration,antioxidant-rich foods,219
+presbyacusis,antioxidant-rich diet,omega-3-rich fish,folate-rich foods,zinc-rich foods,adequate hydration,591
+neonatal jaundice,frequent breastfeeding,adequate hydration,high-calorie intake,vitamin d if needed,monitor feeding frequency,472
+dislocation of the elbow,anti-inflammatory diet,calcium-rich foods,protein-rich diet,vitamin c-rich foods,adequate hydration,186
+spondylosis,anti-inflammatory diet,calcium-rich foods,vitamin d-rich foods,omega-3-rich fish,adequate hydration,669
+herpangina,soft cold diet,adequate hydration,cool liquids,avoid acidic foods,smooth foods like yogurt,322
+injury to the shoulder,anti-inflammatory diet,protein-rich diet,calcium-rich foods,vitamin c-rich foods,adequate hydration,382
+poisoning due to antidepressants,adequate hydration,electrolyte-rich foods,bland diet,avoid alcohol,b-vitamin-rich foods,569
+infection of open wound,high-protein diet,vitamin c-rich foods,zinc-rich foods,immune-boosting foods,adequate hydration,368
+deep vein thrombosis (dvt),anti-inflammatory diet,omega-3-rich fish,vitamin k-consistent diet,adequate hydration,avoid excess vitamin k if on warfarin,168
+protein deficiency,high-protein diet,lean meats and fish,legumes and pulses,dairy products,nuts and seeds,601
+myoclonus,magnesium-rich foods,b-vitamin-rich foods,anti-inflammatory diet,adequate hydration,avoid caffeine,466
+bone spur of the calcaneous,anti-inflammatory diet,calcium-rich foods,vitamin d-rich foods,omega-3-rich fish,magnesium-rich foods,84
+von willebrand disease,vitamin k-rich foods,iron-rich foods,vitamin c-rich foods,folate-rich foods,avoid aspirin-containing foods,763
+open wound of the back,high-protein diet,vitamin c-rich foods,zinc-rich foods,adequate hydration,anti-inflammatory diet,491
+heart block,low-sodium diet,potassium-rich foods,magnesium-rich foods,heart-healthy diet,avoid caffeine,306
+colonic polyp,high-fiber diet,cruciferous vegetables,low red meat diet,avoid processed meats,calcium-rich foods,135
+magnesium deficiency,magnesium-rich foods,leafy green vegetables,nuts and seeds,whole grains,legumes,434
+female infertility of unknown cause,folate-rich foods,iron-rich foods,omega-3-rich fish,antioxidant-rich foods,mediterranean diet,242
+attention deficit hyperactivity disorder (adhd),omega-3-rich foods,protein-rich diet,avoid artificial additives,iron-rich foods,zinc-rich foods,65
+pulmonic valve disease,low-sodium diet,heart-healthy diet,omega-3-rich fish,fruits and vegetables,avoid alcohol,613
+tietze syndrome,anti-inflammatory diet,omega-3-rich fish,vitamin d-rich foods,calcium-rich foods,adequate hydration,707
+cranial nerve palsy,vitamin b12 foods,omega-3-rich fish,anti-inflammatory diet,antioxidant-rich foods,adequate hydration,155
+injury to the arm,anti-inflammatory diet,protein-rich diet,calcium-rich foods,vitamin c-rich foods,adequate hydration,375
+conversion disorder,balanced diet,b-vitamin-rich foods,omega-3-rich foods,magnesium-rich foods,avoid excess caffeine,150
+complex regional pain syndrome,anti-inflammatory diet,omega-3-rich fish,vitamin c-rich foods,magnesium-rich foods,antioxidant-rich foods,138
+otosclerosis,fluoride-rich foods,calcium-rich foods,vitamin d-rich foods,vitamin k-rich foods,adequate hydration,522
+injury to the trunk,high-protein diet,anti-inflammatory foods,iron-rich foods,vitamin c-rich foods,adequate hydration,384
+primary insomnia,tryptophan-rich foods,magnesium-rich foods,avoid caffeine after noon,avoid large meals before bed,cherry juice,595
+vulvodynia,anti-inflammatory diet,low-oxalate diet,omega-3-rich fish,magnesium-rich foods,avoid acidic foods,766
+vasculitis,anti-inflammatory diet,omega-3-rich fish,antioxidant-rich foods,vitamin c-rich foods,low-sodium diet,749
+concussion,omega-3-rich fish,antioxidant-rich foods,anti-inflammatory diet,magnesium-rich foods,adequate hydration,139
+oral leukoplakia,avoid tobacco and alcohol,vitamin a-rich foods,antioxidant-rich diet,vitamin c-rich foods,soft diet,510
+bladder disorder,adequate hydration,avoid bladder irritants,low-acid diet,high-fiber diet,pumpkin seed extract,78
+chorioretinitis,antioxidant-rich diet,vitamin a-rich foods,omega-3-rich fish,zinc-rich foods,lutein-rich foods,118
+priapism,adequate hydration,anti-inflammatory diet,iron-rich foods,avoid alcohol,balanced diet,593
+myositis,anti-inflammatory diet,high-protein diet,omega-3-rich fish,antioxidant-rich foods,adequate hydration,468
+polycystic kidney disease,low-sodium diet,adequate hydration,low-protein if advanced,low-phosphorus diet,avoid excess caffeine,577
+bipolar disorder,omega-3-rich foods,b-vitamin-rich foods,magnesium-rich foods,avoid alcohol,stable blood sugar diet,75
+amyloidosis,low-sodium diet,high-fiber diet,lean proteins,adequate hydration,anti-inflammatory foods,34
+chronic inflammatory demyelinating polyneuropathy (cidp),anti-inflammatory diet,omega-3-rich fish,vitamin b12 foods,antioxidant-rich foods,adequate hydration,122
+gastroesophageal reflux disease (gerd),low-acid diet,fiber-rich foods,ginger,licorice,aloe vera juice,285
+vitreous hemorrhage,antioxidant-rich diet,vitamin k-consistent diet,omega-3-rich fish,antioxidant-rich foods,adequate hydration,760
+poisoning due to antimicrobial drugs,probiotic-rich foods,adequate hydration,liver-supporting foods,bland diet,electrolyte-rich foods,571
+open wound of the mouth,soft diet,cool liquids,vitamin c-rich foods,zinc-rich foods,adequate hydration,504
+scleroderma,anti-inflammatory diet,small frequent meals,high-calorie diet,soft diet if needed,omega-3-rich fish,637
+idiopathic absence of menstruation,nutrient-dense diet,iron-rich foods,folate-rich foods,adequate calorie intake,balanced diet,357
+dislocation of the ankle,anti-inflammatory diet,calcium-rich foods,vitamin c-rich foods,protein-rich diet,adequate hydration,185
+panic attack,avoid caffeine,magnesium-rich foods,b-vitamin-rich foods,omega-3-rich foods,balanced diet,530
+plantar fasciitis,anti-inflammatory diet,omega-3-rich fish,vitamin d-rich foods,weight management diet,adequate hydration,562
+hyperopia,antioxidant-rich diet,vitamin a-rich foods,omega-3-rich fish,lutein-rich foods,adequate hydration,345
+poisoning due to sedatives,adequate hydration,electrolyte-rich foods,bland diet,liver-supporting foods,avoid alcohol,576
+pemphigus,soft bland diet,avoid spicy and acidic foods,high-protein diet,vitamin c-rich foods,adequate hydration,541
+peyronie disease,vitamin e-rich foods,anti-inflammatory diet,omega-3-rich fish,antioxidant-rich foods,adequate hydration,551
+hiatal hernia,small frequent meals,low-acid diet,avoid lying after meals,high-fiber diet,adequate hydration,323
+extrapyramidal effect of drugs,balanced diet,magnesium-rich foods,b-vitamin-rich foods,antioxidant-rich foods,adequate hydration,238
+meniere disease,low-sodium diet,adequate hydration,avoid caffeine,avoid alcohol,magnesium-rich foods,443
+anal fissure,high-fiber diet,adequate hydration,avoid constipating foods,fruits and vegetables,whole grains,36
+chronic otitis media,immune-boosting foods,vitamin c-rich foods,zinc-rich foods,anti-inflammatory diet,adequate hydration,126
+fracture of the finger,calcium-rich foods,vitamin d-rich foods,protein-rich diet,vitamin c-rich foods,adequate hydration,262
+hirschsprung disease,high-fiber diet,adequate hydration,soft easy-to-digest foods,avoid constipating foods,probiotic-rich foods,326
+polymyalgia rheumatica,anti-inflammatory diet,omega-3-rich fish,vitamin d-rich foods,calcium-rich foods,antioxidant-rich foods,580
+lymphedema,low-sodium diet,anti-inflammatory diet,adequate protein,antioxidant-rich foods,adequate hydration,430
+bladder cancer,antioxidant-rich diet,cruciferous vegetables,adequate hydration,low-fat diet,avoid processed meats,77
+acute bronchospasm,anti-inflammatory diet,omega-3-rich foods,avoid sulfites,magnesium-rich foods,vitamin d foods,12
+acute glaucoma,antioxidant-rich diet,low-sodium foods,leafy green vegetables,omega-3-rich fish,avoid caffeine,14
+open wound of the chest,high-protein diet,vitamin c-rich foods,zinc-rich foods,anti-inflammatory diet,adequate hydration,493
+dislocation of the patella,anti-inflammatory diet,calcium-rich foods,vitamin d-rich foods,protein-rich diet,adequate hydration,191
+hypercalcemia,adequate hydration,low-calcium diet,avoid vitamin d supplements,high-fiber foods,avoid milk excess,337
+stress incontinence,adequate hydration,high-fiber diet,avoid bladder irritants,magnesium-rich foods,weight management diet,676
+benign kidney cyst,adequate hydration,low-sodium diet,antioxidant-rich foods,low-protein diet if needed,fruits and vegetables,71
+hydrocele of the testicle,anti-inflammatory diet,adequate hydration,low-sodium foods,balanced diet,zinc-rich foods,334
+degenerative disc disease,anti-inflammatory diet,calcium-rich foods,vitamin d-rich foods,omega-3-rich fish,collagen-boosting foods,169
+hirsutism,low-glycemic diet,low-androgen diet,high-fiber foods,anti-inflammatory diet,spearmint tea,327
+dislocation of the foot,anti-inflammatory diet,calcium-rich foods,protein-rich diet,vitamin c-rich foods,adequate hydration,188
+hydronephrosis,adequate hydration,low-sodium diet,low-oxalate diet,low-protein if kidney affected,citrus fruits,336
+diverticulosis,high-fiber diet,adequate hydration,fruits and vegetables,whole grains,probiotic-rich foods,197
+pain after an operation,high-protein diet,anti-inflammatory diet,vitamin c-rich foods,zinc-rich foods,adequate hydration,527
+huntington disease,high-calorie diet,finger foods if needed,omega-3-rich fish,antioxidant-rich foods,adequate hydration,332
+dermatitis due to sun exposure,antioxidant-rich diet,vitamin e-rich foods,omega-3-rich fish,vitamin c-rich foods,beta-carotene foods,175
+anemia due to chronic kidney disease,iron-rich foods,folate-rich foods,vitamin b12 foods,low-phosphorus diet,lean proteins,39
+injury to internal organ,high-protein diet,iron-rich foods,vitamin c-rich foods,anti-inflammatory diet,adequate hydration,373
+scleritis,anti-inflammatory diet,omega-3-rich fish,vitamin a-rich foods,antioxidant-rich foods,adequate hydration,636
+pterygium,antioxidant-rich diet,vitamin a-rich foods,omega-3-rich fish,vitamin c-rich foods,lutein-rich foods,607
+fungal infection of the skin,antifungal diet,low-sugar diet,probiotics,garlic,coconut oil,277
+insulin overdose,rapid-acting carbohydrates,glucose-rich foods,adequate hydration,small frequent meals,balanced carbohydrate diet,386
+syndrome of inappropriate secretion of adh (siadh),fluid restriction,high-sodium foods if needed,electrolyte balance,avoid excess water,small frequent meals,685
+foreign body in the ear,soft bland diet,adequate hydration,vitamin c-rich foods,zinc-rich foods,balanced diet,253
+premenstrual tension syndrome,low-sodium diet,magnesium-rich foods,calcium-rich foods,b6-rich foods,avoid caffeine,590
+orbital cellulitis,immune-boosting foods,vitamin c-rich foods,zinc-rich foods,high-protein diet,adequate hydration,513
+injury to the leg,anti-inflammatory diet,protein-rich diet,iron-rich foods,vitamin c-rich foods,adequate hydration,381
+hepatic encephalopathy,low-ammonia diet,branched-chain amino acids,small frequent meals,vegetable protein preferred,adequate hydration,319
+bone cancer,high-calcium diet,vitamin d-rich foods,high-protein diet,antioxidant-rich foods,anti-inflammatory diet,82
+syringomyelia,anti-inflammatory diet,omega-3-rich fish,antioxidant-rich foods,adequate hydration,balanced diet,687
+pulmonary fibrosis,anti-inflammatory diet,omega-3-rich fish,high-protein diet,antioxidant-rich foods,adequate hydration,611
+mitral valve disease,low-sodium diet,heart-healthy diet,omega-3-rich fish,fruits and vegetables,avoid alcohol,451
+parkinson disease,mediterranean diet,high-fiber diet,antioxidant-rich foods,omega-3-rich fish,adequate hydration,534
+gout,low-purine diet,adequate hydration,avoid alcohol,cherry-rich diet,avoid organ meats,294
+otitis media,immune-boosting foods,vitamin c-rich foods,zinc-rich foods,omega-3-rich fish,adequate hydration,521
+drug abuse (opioids),high-fiber diet,nutrient-dense foods,b-vitamin-rich foods,protein-rich diet,adequate hydration,203
+myelodysplastic syndrome,iron-rich foods,folate-rich foods,vitamin b12 foods,high-protein diet,antioxidant-rich foods,464
+fracture of the shoulder,calcium-rich foods,vitamin d-rich foods,protein-rich diet,vitamin c-rich foods,adequate hydration,271
+acute kidney injury,low-potassium diet,low-phosphorus diet,restricted protein,low-sodium foods,fluid restriction as directed,15
+threatened pregnancy,folate-rich foods,iron-rich foods,calcium-rich foods,protein-rich diet,adequate hydration,700
+intracranial abscess,high-protein diet,immune-boosting foods,antioxidant-rich foods,adequate hydration,vitamin c-rich foods,394
+gum disease,vitamin c-rich foods,calcium-rich foods,vitamin d-rich foods,anti-inflammatory diet,low-sugar diet,298
+open wound from surgical incision,high-protein diet,vitamin c-rich foods,zinc-rich foods,adequate hydration,anti-inflammatory diet,488
+gastrointestinal hemorrhage,clear liquid diet initially,soft diet,iron-rich foods,avoid alcohol,adequate hydration,286
+seborrheic dermatitis,low-sugar diet,anti-inflammatory diet,omega-3-rich fish,probiotics,zinc-rich foods,642
+drug abuse (methamphetamine),high-calorie diet,nutrient-dense foods,b-vitamin-rich foods,protein-rich diet,adequate hydration,202
+torticollis,anti-inflammatory diet,magnesium-rich foods,omega-3-rich fish,adequate hydration,vitamin d-rich foods,713
+poisoning due to antihypertensives,adequate hydration,electrolyte-rich foods,low-sodium diet,small frequent meals,avoid alcohol,570
+tension headache,adequate hydration,avoid caffeine withdrawal,magnesium-rich foods,regular meal schedule,low-sodium diet,693
+alcohol intoxication,electrolyte-rich foods,b-vitamin-rich foods,adequate hydration,bland diet,avoid alcohol,26
+food allergy,elimination diet,identify trigger foods,nutritionally complete alternatives,adequate hydration,dietitian guidance,252
+labyrinthitis,low-sodium diet,adequate hydration,anti-inflammatory diet,avoid caffeine,magnesium-rich foods,412
+impulse control disorder,balanced diet,omega-3-rich foods,tryptophan-rich foods,avoid excess sugar,b-vitamin-rich foods,365
+stenosis of the tear duct,adequate hydration,vitamin a-rich foods,anti-inflammatory diet,zinc-rich foods,antioxidant-rich foods,673
+abscess of nose,immune-boosting foods,vitamin c-rich foods,zinc-rich foods,anti-inflammatory diet,adequate hydration,2
+omphalitis,immune-boosting foods,vitamin c-rich foods,zinc-rich foods,adequate hydration,protein-rich diet,485
+bell palsy,anti-inflammatory diet,vitamin b12 foods,omega-3-rich fish,antioxidant-rich foods,adequate hydration,70
+conjunctivitis due to allergy,anti-inflammatory diet,omega-3-rich foods,vitamin c-rich foods,quercetin-rich foods,adequate hydration,145
+adrenal cancer,high-calorie diet,high-protein diet,antioxidant-rich foods,small frequent meals,adequate hydration,24
+thyroid disease,selenium-rich foods,iodine-moderate diet,anti-inflammatory diet,omega-3-rich fish,zinc-rich foods,704
+pharyngitis,soft bland diet,warm soups,honey and lemon,adequate hydration,vitamin c-rich foods,552
+chronic rheumatic fever,anti-inflammatory diet,low-sodium diet,omega-3-rich fish,fruits and vegetables,adequate hydration,129
+hypocalcemia,calcium-rich foods,vitamin d-rich foods,magnesium-rich foods,balanced diet,adequate hydration,350
+macular degeneration,lutein-rich foods,zeaxanthin-rich foods,omega-3-rich fish,antioxidant-rich diet,leafy green vegetables,433
+cold sore,lysine-rich foods,avoid arginine-rich foods,vitamin c-rich foods,zinc-rich foods,immune-boosting foods,134
+premature ventricular contractions (pvcs),magnesium-rich foods,potassium-rich foods,omega-3-rich fish,avoid caffeine,low-sodium diet,589
+testicular cancer,antioxidant-rich diet,high-protein diet,low-fat diet,selenium-rich foods,adequate hydration,694
+hydrocephalus,low-sodium diet,anti-inflammatory diet,adequate hydration,antioxidant-rich foods,balanced diet,335
+breast cancer,plant-based diet,cruciferous vegetables,low-fat dairy,omega-3-rich fish,avoid alcohol,87
+anemia due to malignancy,iron-rich foods,folate-rich foods,vitamin b12 foods,high-protein diet,vitamin c-rich foods,40
+esophageal varices,low-sodium diet,soft diet,small frequent meals,avoid alcohol,avoid spicy foods,234
+endometrial cancer,low-fat diet,high-fiber diet,cruciferous vegetables,avoid excess red meat,antioxidant-rich foods,222
+cystic fibrosis,high-calorie diet,high-fat diet,high-protein diet,fat-soluble vitamins,adequate hydration,163
+intertrigo (skin condition),low-sugar diet,anti-inflammatory diet,probiotics,zinc-rich foods,adequate hydration,388
+parathyroid adenoma,low-calcium diet if hypercalcemia,adequate hydration,high-fiber diet,balanced diet,vitamin d monitoring,533
+glucocorticoid deficiency,small frequent meals,adequate sodium,high-calorie diet,electrolyte-rich foods,complex carbohydrates,291
+temporomandibular joint disorder,soft diet,avoid hard chewy foods,anti-inflammatory foods,magnesium-rich foods,adequate hydration,691
+wilson disease,low-copper diet,avoid shellfish,avoid nuts,high-zinc foods,adequate hydration,770
+vesicoureteral reflux,adequate hydration,cranberry products,probiotic-rich foods,vitamin c-rich foods,low-sodium diet,752
+vitamin a deficiency,vitamin a-rich foods,beta-carotene foods,sweet potatoes,leafy green vegetables,fortified foods,756
+fracture of the rib,calcium-rich foods,vitamin d-rich foods,high-protein diet,anti-inflammatory foods,adequate hydration,270
+ependymoma,anti-inflammatory diet,omega-3-rich fish,antioxidant-rich foods,high-protein diet,adequate hydration,227
+hepatitis due to a toxin,liver-healthy diet,antioxidant-rich foods,avoid alcohol,low-fat diet,adequate hydration,320
+vaginal cyst,anti-inflammatory diet,probiotic-rich foods,vitamin c-rich foods,adequate hydration,low-sugar diet,742
+open wound of the shoulder,protein-rich diet,vitamin c-rich foods,zinc-rich foods,anti-inflammatory diet,adequate hydration,507
+chronic knee pain,anti-inflammatory diet,omega-3-rich fish,vitamin d-rich foods,collagen-boosting foods,weight management diet,124
+hypergammaglobulinemia,anti-inflammatory diet,adequate hydration,antioxidant-rich foods,balanced diet,lean proteins,340
+alcohol abuse,high-thiamine foods,b-vitamin-rich foods,liver-supporting foods,protein-rich diet,avoid alcohol,25
+pituitary disorder,balanced diet,adequate protein,calcium-rich foods,vitamin d-rich foods,regulate calorie intake,558
+kidney stone,adequate hydration,low-sodium diet,low-oxalate diet,calcium from foods,avoid vitamin c supplements excess,410
+cat scratch disease,immune-boosting foods,vitamin c-rich foods,zinc-rich foods,anti-inflammatory diet,adequate hydration,100
+chronic glaucoma,antioxidant-rich diet,nitrate-rich vegetables,omega-3-rich fish,avoid caffeine,adequate hydration,121
+retinal detachment,antioxidant-rich diet,omega-3-rich fish,vitamin a-rich foods,lutein-rich foods,adequate hydration,621
+aplastic anemia,iron-rich foods,folate-rich foods,vitamin b12 foods,high-protein diet,antioxidant-rich foods,48
+overflow incontinence,adequate hydration,high-fiber diet,avoid bladder irritants,magnesium-rich foods,low-acid diet,526
+hemolytic anemia,folate-rich foods,iron-rich foods (if appropriate),antioxidant-rich foods,vitamin b12 foods,adequate hydration,316
+lateral epicondylitis (tennis elbow),anti-inflammatory diet,omega-3-rich fish,vitamin c-rich foods,collagen-boosting foods,adequate hydration,415
+open wound of the eye,vitamin a-rich foods,zinc-rich foods,vitamin c-rich foods,adequate hydration,protein-rich diet,495
+diabetic kidney disease,low-protein diet,low-sodium diet,low-potassium diet,low-phosphorus diet,adequate hydration,181
+nose disorder,anti-inflammatory diet,vitamin c-rich foods,adequate hydration,zinc-rich foods,omega-3-rich fish,481
+drug withdrawal,nutrient-dense diet,b-vitamin-rich foods,magnesium-rich foods,high-protein diet,adequate hydration,206
+dental caries,low-sugar diet,calcium-rich foods,vitamin d-rich foods,phosphorus-rich foods,fluoride-containing foods,173
+hypercholesterolemia,low-saturated fat diet,high-fiber diet,omega-3-rich fish,plant sterols,oats and legumes,338
+fracture of the patella,calcium-rich foods,vitamin d-rich foods,protein-rich diet,anti-inflammatory diet,adequate hydration,268
+kidney failure,low-protein diet,low-potassium diet,low-phosphorus diet,low-sodium diet,fluid restriction as directed,409
+fracture of the neck,calcium-rich foods,vitamin d-rich foods,protein-rich diet,soft diet if needed,adequate hydration,267
+muscle spasm,magnesium-rich foods,potassium-rich foods,adequate hydration,calcium-rich foods,electrolyte-rich foods,461
+hemophilia,iron-rich foods,vitamin k-consistent diet,calcium-rich foods,adequate hydration,balanced diet,317
+hyperosmotic hyperketotic state,adequate hydration,low-glycemic diet,electrolyte-rich foods,small frequent meals,avoid excess sugar,346
+peritonsillar abscess,soft cool diet,adequate hydration,vitamin c-rich foods,zinc-rich foods,immune-boosting foods,548
+gastroparesis,small frequent meals,low-fat diet,low-fiber diet,liquid diet if needed,soft foods,287
+itching of unknown cause,anti-inflammatory diet,omega-3-rich foods,adequate hydration,avoid histamine foods,probiotics,402
+polycythemia vera,adequate hydration,anti-inflammatory diet,low-iron diet if needed,antioxidant-rich foods,balanced diet,579
+thrombocytopenia,folate-rich foods,vitamin b12 foods,iron-rich foods,vitamin c-rich foods,papaya leaf extract,701
+head and neck cancer,soft diet,high-protein diet,high-calorie diet,antioxidant-rich foods,adequate hydration,302
+pseudohypoparathyroidism,calcium-rich foods,vitamin d-rich foods,phosphorus-moderated diet,magnesium-rich foods,balanced diet,602
+goiter,iodine-rich foods,selenium-rich foods,avoid raw goitrogens,zinc-rich foods,adequate hydration,292
+urge incontinence,adequate hydration,avoid caffeine,high-fiber diet,low-acid foods,magnesium-rich foods,734
+edward syndrome,high-calorie nutrition,nutrient-dense foods,small frequent feeds,adequate hydration,protein-rich diet,217
+open wound of the arm,high-protein diet,vitamin c-rich foods,zinc-rich foods,iron-rich foods,adequate hydration,490
+mittelschmerz,anti-inflammatory diet,omega-3-rich fish,magnesium-rich foods,adequate hydration,balanced diet,452
+anemia of chronic disease,iron-rich foods,vitamin c-rich foods,folate-rich foods,vitamin b12 foods,anti-inflammatory diet,41
+dysthymic disorder,omega-3-rich foods,b-vitamin-rich foods,folate-rich foods,tryptophan-rich foods,avoid alcohol,210
+hypertensive heart disease,low-sodium diet,dash diet,omega-3-rich fish,fruits and vegetables,avoid alcohol,348
+drug abuse (barbiturates),b-vitamin-rich foods,high-protein diet,antioxidant-rich foods,electrolyte-rich foods,adequate hydration,200
+polycystic ovarian syndrome (pcos),low-glycemic diet,high-fiber diet,lean proteins,anti-inflammatory diet,omega-3-rich fish,578
+encephalitis,adequate hydration,anti-inflammatory diet,antioxidant-rich foods,omega-3-rich fish,vitamin b12 foods,220
+cyst of the eyelid,anti-inflammatory diet,omega-3-rich fish,vitamin a-rich foods,warm compress supportive diet,zinc-rich foods,162
+balanitis,low-sugar diet,probiotics,antifungal diet,vitamin c-rich foods,adequate hydration,69
+foreign body in the throat,soft diet,adequate hydration,avoid hard foods,small bites,cool liquids,257
+drug abuse (cocaine),nutrient-dense diet,b-vitamin-rich foods,high-protein diet,antioxidant-rich foods,adequate hydration,201
+optic neuritis,antioxidant-rich diet,vitamin b12 foods,omega-3-rich fish,vitamin d-rich foods,adequate hydration,509
+alcohol withdrawal,thiamine-rich foods,b-vitamin-rich foods,magnesium-rich foods,high-calorie diet,avoid alcohol,27
+premature atrial contractions (pacs),low-caffeine diet,magnesium-rich foods,potassium-rich foods,anti-inflammatory diet,adequate hydration,586
+hemiplegia,soft diet if dysphagia,high-protein diet,omega-3-rich fish,antioxidant-rich foods,adequate hydration,314
+hammer toe,anti-inflammatory diet,calcium-rich foods,vitamin d-rich foods,adequate hydration,balanced diet,300
+open wound of the cheek,soft diet,vitamin c-rich foods,zinc-rich foods,adequate hydration,protein-rich diet,492
+joint effusion,anti-inflammatory diet,omega-3-rich fish,vitamin c-rich foods,adequate hydration,low-purine diet if gout,404
+open wound of the knee,protein-rich diet,collagen-boosting foods,vitamin c-rich foods,zinc-rich foods,adequate hydration,502
+meningioma,anti-inflammatory diet,omega-3-rich fish,antioxidant-rich foods,high-protein diet,adequate hydration,444
+brain cancer,anti-inflammatory diet,ketogenic diet consideration,antioxidant-rich foods,omega-3-rich fish,adequate hydration,86
+placental abruption,iron-rich foods,folate-rich foods,vitamin c-rich foods,protein-rich diet,adequate hydration,561
+seasonal allergies (hay fever),anti-inflammatory diet,omega-3-rich foods,vitamin c-rich foods,quercetin-rich foods,probiotics,640
+primary kidney disease,low-protein diet,low-sodium diet,low-potassium diet,low-phosphorus diet,adequate hydration,596
+uterine cancer,low-fat diet,high-fiber diet,cruciferous vegetables,antioxidant-rich foods,avoid excess red meat,738
+dry eye of unknown cause,omega-3-rich fish,vitamin a-rich foods,adequate hydration,antioxidant-rich foods,avoid alcohol,207
+fibrocystic breast disease,low-fat diet,avoid caffeine,high-fiber diet,cruciferous vegetables,vitamin e-rich foods,245
+fungal infection of the hair,antifungal diet,low-sugar diet,zinc-rich foods,biotin-rich foods,immune-boosting foods,276
+tooth abscess,soft diet,warm saltwater rinse diet,vitamin c-rich foods,zinc-rich foods,immune-boosting foods,711
+envenomation from spider or animal bite,adequate hydration,anti-inflammatory diet,vitamin c-rich foods,electrolyte-rich foods,protein-rich diet,226
+vacterl syndrome,nutrient-dense diet,folate-rich foods,protein-rich diet,adequate hydration,vitamin d-rich foods,741
+vertebrobasilar insufficiency,heart-healthy diet,low-sodium diet,omega-3-rich fish,antioxidant-rich foods,adequate hydration,751
+rectal disorder,high-fiber diet,adequate hydration,anti-inflammatory diet,probiotic-rich foods,avoid spicy foods,619
+atonic bladder,adequate hydration,high-fiber diet,low-acid foods,avoid bladder irritants,magnesium-rich foods,59
+benign paroxysmal positional vertical (bppv),low-sodium diet,adequate hydration,vitamin d-rich foods,avoid caffeine,magnesium-rich foods,72
+blepharospasm,magnesium-rich foods,b-vitamin-rich foods,omega-3-rich foods,avoid caffeine,adequate hydration,81
+metastatic cancer,high-calorie diet,high-protein diet,small frequent meals,nutrient-dense foods,adequate hydration,448
+trigger finger (finger disorder),anti-inflammatory diet,omega-3-rich fish,vitamin c-rich foods,collagen-boosting foods,adequate hydration,724
+stye,vitamin a-rich foods,zinc-rich foods,omega-3-rich fish,immune-boosting foods,adequate hydration,679
+hemochromatosis,avoid iron-rich foods,avoid vitamin c with meals,tea with meals,low-iron diet,adequate hydration,315
+osteochondroma,calcium-rich foods,vitamin d-rich foods,anti-inflammatory diet,protein-rich diet,adequate hydration,516
+cushing syndrome,low-sodium diet,low-calorie diet,high-fiber diet,calcium-rich foods,vitamin d-rich foods,161
+typhoid fever,typhoid diet,high-calorie diet,soft bland foods,adequate hydration,protein-rich foods,728
+vitreous degeneration,antioxidant-rich diet,omega-3-rich fish,vitamin a-rich foods,lutein-rich foods,adequate hydration,759
+atrophic skin condition,omega-3-rich foods,vitamin e-rich foods,antioxidant-rich diet,adequate hydration,collagen-boosting foods,62
+aspergillosis,immune-boosting foods,antioxidant-rich diet,vitamin c-rich foods,adequate hydration,protein-rich diet,54
+uterine atony,iron-rich foods,vitamin c-rich foods,protein-rich diet,folate-rich foods,adequate hydration,737
+whooping cough,adequate hydration,warm soups,small frequent meals,vitamin c-rich foods,honey,769
+open wound of the lip,soft diet,vitamin c-rich foods,zinc-rich foods,adequate hydration,protein-rich diet,503
+subacute thyroiditis,anti-inflammatory diet,selenium-rich foods,iodine-moderate diet,omega-3-rich fish,adequate hydration,680
+oral mucosal lesion,soft bland diet,vitamin b12 foods,folate-rich foods,vitamin c-rich foods,avoid acidic foods,511
+open wound due to trauma,high-protein diet,vitamin c-rich foods,zinc-rich foods,iron-rich foods,adequate hydration,487
+intracerebral hemorrhage,anti-inflammatory diet,low-sodium diet,antioxidant-rich foods,omega-3-rich fish,adequate hydration,393
+alzheimer disease,mediterranean diet,omega-3-rich fish,antioxidant-rich foods,leafy green vegetables,blueberries,32
+vaginismus,anti-inflammatory diet,magnesium-rich foods,omega-3-rich foods,b-vitamin-rich foods,adequate hydration,744
+systemic lupus erythematosis (sle),anti-inflammatory diet,omega-3-rich fish,vitamin d-rich foods,calcium-rich foods,avoid alfalfa,688
+premature ovarian failure,calcium-rich foods,vitamin d-rich foods,phytoestrogen foods,omega-3-rich fish,iron-rich foods,587
+thoracic outlet syndrome,anti-inflammatory diet,omega-3-rich fish,magnesium-rich foods,antioxidant-rich foods,adequate hydration,699
+ganglion cyst,anti-inflammatory diet,omega-3-rich fish,vitamin c-rich foods,adequate hydration,antioxidant-rich foods,281
+dislocation of the knee,anti-inflammatory diet,calcium-rich foods,collagen-boosting foods,protein-rich diet,adequate hydration,190
+crohn disease,low-residue diet,omega-3-rich fish,avoid trigger foods,high-protein diet,probiotic-rich foods,156
+postoperative infection,high-protein diet,vitamin c-rich foods,zinc-rich foods,immune-boosting foods,adequate hydration,582
+folate deficiency,folate-rich foods,leafy green vegetables,citrus fruits,fortified cereals,legumes,251
+fluid overload,fluid restriction,low-sodium diet,adequate protein,avoid salty snacks,monitor liquid intake,250
+atrial flutter,low-sodium diet,potassium-rich foods,magnesium-rich foods,omega-3-rich fish,avoid caffeine,61
+skin disorder,anti-inflammatory diet,omega-3-rich foods,vitamin e-rich foods,antioxidant-rich foods,adequate hydration,655
+floaters,antioxidant-rich diet,omega-3-rich fish,vitamin a-rich foods,adequate hydration,zinc-rich foods,248
+tooth disorder,calcium-rich foods,vitamin d-rich foods,low-sugar diet,phosphorus-rich foods,vitamin c-rich foods,712
+open wound of the abdomen,soft diet,high-protein diet,vitamin c-rich foods,zinc-rich foods,adequate hydration,489
+fracture of the leg,calcium-rich foods,vitamin d-rich foods,protein-rich diet,vitamin c-rich foods,adequate hydration,266
+oral thrush (yeast infection),antifungal diet,low-sugar diet,probiotics,avoid refined carbs,garlic,512
+pityriasis rosea,anti-inflammatory diet,omega-3-rich fish,vitamin d-rich foods,antioxidant-rich foods,adequate hydration,559
+allergy to animals,anti-inflammatory diet,omega-3-rich foods,vitamin c-rich foods,quercetin-rich foods,probiotics,30
+orthostatic hypotension,adequate hydration,high-sodium diet if recommended,small frequent meals,electrolyte-rich foods,avoid alcohol,514
+obstructive sleep apnea (osa),weight management diet,low-glycemic diet,anti-inflammatory diet,avoid alcohol,avoid large meals before bed,484
+hypokalemia,potassium-rich foods,bananas,leafy greens,avocados,adequate hydration,352
+dislocation of the shoulder,anti-inflammatory diet,calcium-rich foods,protein-rich diet,vitamin c-rich foods,adequate hydration,192
+intussusception,clear liquid diet initially,low-fiber diet,small frequent meals,adequate hydration,gradual food reintroduction,396
+cervicitis,probiotic-rich foods,vitamin c-rich foods,anti-inflammatory diet,zinc-rich foods,adequate hydration,110
+abscess of the pharynx,soft bland diet,lukewarm soups,adequate hydration,immune-boosting foods,vitamin c-rich foods,4
+primary thrombocythemia,adequate hydration,anti-inflammatory diet,omega-3-rich fish,antioxidant-rich foods,low-fat diet,597
+arthritis of the hip,anti-inflammatory diet,omega-3-rich fish,vitamin d-rich foods,calcium-rich foods,fruits and vegetables,51
+decubitus ulcer,high-protein diet,vitamin c-rich foods,zinc-rich foods,adequate hydration,antioxidant-rich foods,167
+hypernatremia,adequate hydration,low-sodium diet,electrolyte balance,avoid salty foods,regular fluid intake,344
+sensorineural hearing loss,folate-rich foods,zinc-rich foods,omega-3-rich fish,antioxidant-rich diet,magnesium-rich foods,644
+chronic ulcer,low-acid diet,high-fiber diet,probiotic-rich foods,avoid nsaids foods,adequate hydration,131
+ileus,clear liquid diet initially,gradual reintroduction of food,small frequent meals,high-fiber when resolved,adequate hydration,363
+sickle cell crisis,adequate hydration,folate-rich foods,iron-rich foods,vitamin c-rich foods,high-calorie diet,651
+urethritis,adequate hydration,cranberry products,probiotic-rich foods,vitamin c-rich foods,avoid alcohol,733
+prostatitis,anti-inflammatory diet,omega-3-rich fish,adequate hydration,zinc-rich foods,avoid alcohol,600
+otitis externa (swimmer's ear),immune-boosting foods,vitamin c-rich foods,zinc-rich foods,anti-inflammatory diet,adequate hydration,520
+poisoning due to anticonvulsants,folate-rich foods,calcium-rich foods,vitamin d-rich foods,adequate hydration,balanced diet,568
+testicular torsion,anti-inflammatory diet,adequate hydration,high-protein diet,vitamin c-rich foods,balanced diet,696
+tricuspid valve disease,low-sodium diet,heart-healthy diet,omega-3-rich fish,fruits and vegetables,adequate hydration,722
+urethral stricture,adequate hydration,anti-inflammatory diet,vitamin c-rich foods,avoid bladder irritants,balanced diet,731
+vitamin d deficiency,vitamin d-rich foods,fatty fish,fortified dairy,egg yolks,mushrooms (uv-exposed),758
+hydatidiform mole,nutrient-dense diet,folate-rich foods,iron-rich foods,adequate hydration,balanced diet,333
+pain disorder affecting the neck,anti-inflammatory diet,omega-3-rich fish,magnesium-rich foods,calcium-rich foods,adequate hydration,528
+pelvic fistula,high-protein diet,high-fiber diet,adequate hydration,anti-inflammatory diet,zinc-rich foods,538
+acute bronchiolitis,adequate hydration,breastfeeding supported,soft bland foods,vitamin c-rich foods,warm fluids,10
+insect bite,anti-inflammatory diet,vitamin c-rich foods,quercetin-rich foods,adequate hydration,zinc-rich foods,385
+paroxysmal ventricular tachycardia,low-sodium diet,magnesium-rich foods,potassium-rich foods,omega-3-rich fish,avoid caffeine,537
+congenital heart defect,heart-healthy diet,low-sodium diet,nutrient-dense foods,adequate hydration,small frequent meals,142
+connective tissue disorder,anti-inflammatory diet,omega-3-rich fish,vitamin c-rich foods,collagen-boosting foods,antioxidant-rich foods,148
+foreign body in the eye,vitamin a-rich foods,antioxidant-rich diet,adequate hydration,zinc-rich foods,balanced diet,254
+poisoning due to gas,adequate hydration,antioxidant-rich foods,vitamin c-rich foods,bland diet,electrolyte-rich foods,574
+pyogenic skin infection,immune-boosting foods,vitamin c-rich foods,zinc-rich foods,high-protein diet,adequate hydration,616
+endometrial hyperplasia,low-fat diet,high-fiber diet,phytoestrogen foods,antioxidant-rich foods,low-glycemic diet,223
+acanthosis nigricans,low-glycemic diet,high-fiber foods,lean proteins,avoid refined carbs,non-starchy vegetables,5
+central atherosclerosis,heart-healthy diet,low-saturated fat,omega-3-rich fish,whole grains,fruits and vegetables,104
+viral exanthem,adequate hydration,vitamin c-rich foods,immune-boosting foods,soft bland diet,antioxidant-rich foods,753
+noninfectious gastroenteritis,bland diet (brat),adequate hydration,probiotics,avoid dairy initially,electrolyte-rich foods,479
+benign prostatic hyperplasia (bph),lycopene-rich foods,zinc-rich foods,pumpkin seeds,low-fat diet,avoid caffeine,73
+menopause,phytoestrogen-rich foods,calcium-rich foods,vitamin d-rich foods,omega-3-rich fish,avoid excess caffeine,446
+primary immunodeficiency,immune-boosting foods,high-protein diet,zinc-rich foods,vitamin c-rich foods,antioxidant-rich diet,594
+ovarian cancer,plant-based diet,high-fiber diet,cruciferous vegetables,low-fat diet,antioxidant-rich foods,523
+cataract,antioxidant-rich diet,vitamin c-rich foods,vitamin e-rich foods,lutein-rich foods,omega-3-rich fish,101
+dislocation of the hip,anti-inflammatory diet,calcium-rich foods,vitamin d-rich foods,protein-rich diet,adequate hydration,189
+spinal stenosis,anti-inflammatory diet,calcium-rich foods,vitamin d-rich foods,weight management diet,omega-3-rich fish,665
+intestinal obstruction,clear liquid diet,gradual food reintroduction,low-fiber diet,small frequent meals,adequate hydration,392
+heart contusion,anti-inflammatory diet,omega-3-rich fish,antioxidant-rich foods,adequate hydration,low-sodium diet,307
+congenital malformation syndrome,nutrient-dense diet,folate-rich foods,protein-rich diet,vitamin d-rich foods,adequate hydration,143
+sporotrichosis,immune-boosting foods,antifungal diet,vitamin c-rich foods,zinc-rich foods,adequate hydration,671
+lymphangitis,immune-boosting foods,vitamin c-rich foods,adequate hydration,anti-inflammatory diet,protein-rich diet,429
+wernicke korsakoff syndrome,thiamine-rich foods,b-vitamin-rich foods,high-protein diet,avoid alcohol,nutrient-dense foods,767
+intestinal disease,high-fiber diet,probiotic-rich foods,anti-inflammatory diet,adequate hydration,low-fat diet,390
+acute bronchitis,adequate hydration,warm soups and broths,vitamin c-rich foods,honey and ginger,anti-inflammatory foods,11
+persistent vomiting of unknown cause,small frequent meals,ginger tea,bland diet,adequate hydration,electrolyte-rich foods,549
+open wound of the foot,protein-rich diet,vitamin c-rich foods,zinc-rich foods,anti-inflammatory diet,adequate hydration,498
+myocarditis,low-sodium diet,heart-healthy diet,anti-inflammatory diet,omega-3-rich fish,avoid alcohol,465
+ischemic heart disease,heart-healthy diet,low-saturated fat,omega-3-rich fish,whole grains,fruits and vegetables,401
+neurofibromatosis,antioxidant-rich diet,anti-inflammatory diet,vitamin d-rich foods,omega-3-rich fish,adequate hydration,475
+pancreatic cancer,small frequent meals,low-fat diet,high-protein diet,pancreatic enzyme supplements,adequate hydration,529
+neuropathy due to drugs,vitamin b12 foods,omega-3-rich fish,anti-inflammatory diet,antioxidant-rich foods,adequate hydration,476
+croup,adequate hydration,warm fluids,soft foods,vitamin c-rich foods,immune-boosting foods,157
+idiopathic excessive menstruation,iron-rich foods,vitamin c-rich foods,folate-rich foods,vitamin k-rich foods,anti-inflammatory diet,358
+meckel diverticulum,high-fiber diet,adequate hydration,iron-rich foods,anti-inflammatory diet,balanced diet,441
+dislocation of the wrist,anti-inflammatory diet,calcium-rich foods,vitamin c-rich foods,collagen-boosting foods,adequate hydration,194
+ear drum damage,vitamin c-rich foods,zinc-rich foods,omega-3-rich fish,anti-inflammatory diet,adequate hydration,211
+erectile dysfunction,mediterranean diet,nitric oxide-boosting foods,omega-3-rich fish,zinc-rich foods,dark leafy greens,231
+temporary or benign blood in urine,adequate hydration,low-oxalate diet,cranberry products,vitamin c-rich foods,avoid bladder irritants,690
+kidney disease due to longstanding hypertension,low-protein diet,low-sodium diet,low-potassium diet,low-phosphorus diet,adequate hydration,408
+chondromalacia of the patella,anti-inflammatory diet,omega-3-rich fish,vitamin c-rich foods,collagen-boosting foods,calcium-rich foods,117
+onychomycosis,antifungal diet,low-sugar diet,probiotics,biotin-rich foods,zinc-rich foods,486
+urethral disorder,adequate hydration,avoid bladder irritants,cranberry products,probiotic-rich foods,anti-inflammatory diet,730
+acute respiratory distress syndrome (ards),high-calorie diet,high-protein diet,omega-3-rich foods,antioxidant-rich foods,adequate hydration,18
+toxic multinodular goiter,avoid excess iodine,selenium-rich foods,anti-inflammatory diet,calcium-rich foods,adequate hydration,715
+open wound of the finger,vitamin c-rich foods,zinc-rich foods,protein-rich diet,anti-inflammatory diet,adequate hydration,497
+autonomic nervous system disorder,adequate hydration,small frequent meals,low-glycemic diet,electrolyte-rich foods,avoid caffeine,67
+psychosexual disorder,balanced diet,zinc-rich foods,omega-3-rich foods,b-vitamin-rich foods,avoid excess alcohol,605
+tendinitis,anti-inflammatory diet,omega-3-rich fish,vitamin c-rich foods,collagen-boosting foods,adequate hydration,692
+amyotrophic lateral sclerosis (als),high-calorie diet,high-protein diet,soft easy-to-swallow foods,nutrient-dense smoothies,omega-3-rich foods,35
+central retinal artery or vein occlusion,low-sodium diet,antioxidant-rich diet,omega-3-rich fish,leafy green vegetables,low-cholesterol diet,105
+paroxysmal supraventricular tachycardia,low-caffeine diet,magnesium-rich foods,potassium-rich foods,anti-inflammatory diet,adequate hydration,536
+venous insufficiency,low-sodium diet,adequate hydration,antioxidant-rich foods,omega-3-rich fish,anti-inflammatory diet,750
+trichomonas infection,probiotic-rich foods,vitamin c-rich foods,zinc-rich foods,anti-inflammatory diet,adequate hydration,721
+drug abuse,nutrient-dense diet,b-vitamin-rich foods,protein-rich diet,antioxidant-rich foods,adequate hydration,199
+urinary tract obstruction,adequate hydration,low-oxalate diet,low-sodium diet,anti-inflammatory diet,avoid excess calcium supplements,736
+diabetes insipidus,adequate hydration,low-sodium diet,low-protein diet,electrolyte-rich foods,regular small meals,179
+iridocyclitis,anti-inflammatory diet,omega-3-rich fish,vitamin a-rich foods,antioxidant-rich foods,adequate hydration,397
+varicocele of the testicles,anti-inflammatory diet,antioxidant-rich foods,zinc-rich foods,omega-3-rich fish,adequate hydration,747
+fracture of the foot,calcium-rich foods,vitamin d-rich foods,protein-rich diet,vitamin c-rich foods,adequate hydration,263
+ovarian cyst,low-glycemic diet,high-fiber diet,anti-inflammatory diet,omega-3-rich fish,avoid excess estrogen foods,524
+parasitic disease,immune-boosting foods,garlic,pumpkin seeds,adequate hydration,probiotic-rich foods,532
+fracture of the jaw,liquid diet,soft foods,calcium-rich foods,protein-rich diet,adequate hydration,265
+lipoma,low-fat diet,anti-inflammatory diet,omega-3-rich fish,antioxidant-rich foods,adequate hydration,421
+female genitalia infection,probiotic-rich foods,low-sugar diet,vitamin c-rich foods,garlic,adequate hydration,241
+pulmonary hypertension,low-sodium diet,heart-healthy diet,adequate hydration,small frequent meals,avoid alcohol,612
+thyroid nodule,iodine-appropriate diet,selenium-rich foods,anti-inflammatory diet,antioxidant-rich foods,adequate hydration,705
+broken tooth,soft bland diet,calcium-rich foods,vitamin d-rich foods,avoid hard foods,avoid very hot or cold,90
+dumping syndrome,small frequent meals,low-sugar diet,avoid liquids with meals,high-protein diet,complex carbohydrates,208
+lymphadenitis,immune-boosting foods,vitamin c-rich foods,zinc-rich foods,anti-inflammatory diet,adequate hydration,428
+injury to the face,soft diet,calcium-rich foods,vitamin c-rich foods,anti-inflammatory foods,adequate hydration,376
+aortic valve disease,heart-healthy diet,low-sodium diet,fruits and vegetables,whole grains,lean proteins,45
+rheumatoid arthritis,anti-inflammatory diet,omega-3-rich fish,vitamin d-rich foods,calcium-rich foods,mediterranean diet,625
+spermatocele,anti-inflammatory diet,zinc-rich foods,omega-3-rich fish,adequate hydration,balanced diet,662
+anal fistula,high-fiber diet,adequate hydration,anti-inflammatory foods,lean proteins,avoid spicy foods,37
+hypothermia,warm high-calorie foods,warm soups,high-fat foods,adequate hydration,warm beverages,354
+oppositional disorder,balanced diet,omega-3-rich foods,avoid artificial additives,iron-rich foods,zinc-rich foods,508
+diabetic peripheral neuropathy,low-glycemic diet,omega-3-rich fish,vitamin b12 foods,antioxidant-rich foods,alpha-lipoic acid foods,182
+testicular disorder,zinc-rich foods,vitamin d-rich foods,antioxidant-rich foods,anti-inflammatory diet,adequate hydration,695
+gestational diabetes,low-glycemic diet,consistent carbohydrates,high-fiber foods,lean proteins,adequate hydration,289
+hidradenitis suppurativa,anti-inflammatory diet,low-glycemic diet,avoid dairy if sensitive,omega-3-rich fish,zinc-rich foods,324
+valley fever,immune-boosting foods,antifungal diet,adequate hydration,high-protein diet,vitamin c-rich foods,746
+conjunctivitis due to bacteria,vitamin c-rich foods,zinc-rich foods,immune-boosting foods,vitamin a-rich foods,adequate hydration,146
+lewy body dementia,mediterranean diet,omega-3-rich fish,antioxidant-rich foods,soft diet if needed,adequate hydration,417
+head injury,omega-3-rich fish,antioxidant-rich foods,anti-inflammatory diet,adequate hydration,vitamin b12 foods,303
+ascending cholangitis,low-fat diet,small frequent meals,high-fiber diet,avoid fatty foods,adequate hydration,52
+idiopathic irregular menstrual cycle,balanced diet,iron-rich foods,omega-3-rich fish,magnesium-rich foods,avoid excess sugar,360
+interstitial lung disease,anti-inflammatory diet,omega-3-rich fish,high-protein diet,antioxidant-rich foods,adequate hydration,387
+mononeuritis,vitamin b12 foods,omega-3-rich fish,anti-inflammatory diet,antioxidant-rich foods,adequate hydration,454
+somatization disorder,balanced diet,regular meal schedule,omega-3-rich foods,b-vitamin-rich foods,adequate hydration,661
+hypovolemia,adequate hydration,electrolyte-rich foods,oral rehydration salts,sodium-rich foods,sports drinks,356
+knee ligament or meniscus tear,anti-inflammatory diet,collagen-boosting foods,protein-rich diet,omega-3-rich fish,adequate hydration,411
+endocarditis,heart-healthy diet,high-protein diet,antioxidant-rich foods,adequate hydration,immune-boosting foods,221
+heat stroke,adequate hydration,electrolyte-rich foods,cool liquids,avoid alcohol,small frequent meals,310
+cholecystitis,low-fat diet,high-fiber diet,small frequent meals,avoid fatty foods,adequate hydration,114
+cardiac arrest,heart-healthy diet,low-sodium diet,omega-3-rich fish,fruits and vegetables,avoid saturated fats,97
+cardiomyopathy,low-sodium diet,heart-healthy diet,omega-3-rich fish,avoid alcohol,fluid restriction if needed,98
+social phobia,balanced diet,omega-3-rich foods,magnesium-rich foods,b-vitamin-rich foods,avoid excess caffeine,659
+meningitis,adequate hydration,high-protein diet,immune-boosting foods,vitamin c-rich foods,antioxidant-rich foods,445
+spherocytosis,folate-rich foods,iron-rich foods if appropriate,antioxidant-rich foods,vitamin b12 foods,adequate hydration,663
+hormone disorder,balanced diet,low-glycemic foods,omega-3-rich fish,cruciferous vegetables,avoid processed foods,329
+raynaud disease,omega-3-rich fish,vitamin e-rich foods,anti-inflammatory diet,avoid caffeine,adequate hydration,617
+reactive arthritis,anti-inflammatory diet,omega-3-rich fish,vitamin d-rich foods,calcium-rich foods,adequate hydration,618
+ear wax impaction,omega-3-rich fish,adequate hydration,anti-inflammatory diet,balanced diet,zinc-rich foods,212
+hypertension of pregnancy,dash diet,low-sodium diet,calcium-rich foods,magnesium-rich foods,adequate hydration,347
+peripheral arterial embolism,heart-healthy diet,omega-3-rich fish,antioxidant-rich foods,low-saturated fat,adequate hydration,544
+rosacea,anti-inflammatory diet,avoid trigger foods,omega-3-rich fish,probiotics,adequate hydration,627
+fracture of the skull,calcium-rich foods,omega-3-rich fish,protein-rich diet,antioxidant-rich foods,adequate hydration,272
+uveitis,anti-inflammatory diet,vitamin a-rich foods,omega-3-rich fish,antioxidant-rich foods,adequate hydration,740
+fracture of the facial bones,soft diet,calcium-rich foods,vitamin d-rich foods,protein-rich diet,adequate hydration,261
+tracheitis,adequate hydration,warm soups,vitamin c-rich foods,honey and ginger,anti-inflammatory diet,717
+jaw disorder,soft diet,avoid hard chewy foods,anti-inflammatory foods,calcium-rich foods,adequate hydration,403
+perirectal infection,high-fiber diet,adequate hydration,immune-boosting foods,vitamin c-rich foods,zinc-rich foods,546
+breast cyst,low-fat diet,high-fiber diet,avoid caffeine,cruciferous vegetables,omega-3-rich foods,88
+post-traumatic stress disorder (ptsd),omega-3-rich foods,b-vitamin-rich foods,tryptophan-rich foods,magnesium-rich foods,avoid alcohol,581
+kidney cancer,antioxidant-rich diet,adequate hydration,low-sodium diet,high-protein diet,fruits and vegetables,407
+vulvar cancer,plant-based diet,antioxidant-rich foods,high-fiber diet,folate-rich foods,adequate hydration,764
+blepharitis,omega-3-rich fish,vitamin a-rich foods,antioxidant-rich diet,adequate hydration,zinc-rich foods,80
+cystitis,adequate hydration,cranberry products,probiotics,vitamin c-rich foods,avoid bladder irritants,165
+sickle cell anemia,folate-rich foods,iron-rich foods,vitamin c-rich foods,adequate hydration,high-calorie diet,650
+subconjunctival hemorrhage,vitamin c-rich foods,vitamin k-rich foods,adequate hydration,anti-inflammatory diet,antioxidant-rich foods,682
+hemorrhoids,high-fiber diet,adequate hydration,fruits and vegetables,whole grains,avoid straining foods,318
+contact dermatitis,anti-inflammatory diet,omega-3-rich foods,vitamin e-rich foods,probiotics,avoid known allergens,149
+sinus bradycardia,balanced diet,magnesium-rich foods,potassium-rich foods,adequate hydration,avoid excess alcohol,652
+high blood pressure,dash diet,low-sodium foods,potassium-rich foods,magnesium-rich foods,omega-3-rich fish,325
+chronic constipation,high-fiber diet,adequate hydration,probiotic-rich foods,fruits and vegetables,whole grains,120
+thyroid cancer,anti-inflammatory diet,selenium-rich foods,adequate iodine,antioxidant-rich foods,cruciferous vegetables (moderation),703
+flu,adequate hydration,warm soups and broths,vitamin c-rich foods,zinc-rich foods,honey and ginger,249
+friedrich ataxia,antioxidant-rich diet,coenzyme q10 foods,low-carbohydrate diet,omega-3-rich fish,adequate hydration,274
+tic (movement) disorder,magnesium-rich foods,b-vitamin-rich foods,avoid artificial additives,omega-3-rich foods,balanced diet,706
+skin polyp,antioxidant-rich diet,low-sugar diet,anti-inflammatory diet,adequate hydration,balanced diet,657
+brachial neuritis,anti-inflammatory diet,vitamin b12 foods,omega-3-rich fish,antioxidant-rich foods,magnesium-rich foods,85
+cervical cancer,plant-based diet,folate-rich foods,vitamin c-rich foods,antioxidant-rich foods,avoid processed meats,108
+adrenal adenoma,low-sodium diet,potassium-rich foods,balanced diet,avoid excess sugar,calcium-rich foods,23
+esophagitis,low-acid diet,soft bland diet,small frequent meals,avoid spicy foods,adequate hydration,235
+gas gangrene,high-protein diet,high-calorie diet,vitamin c-rich foods,zinc-rich foods,adequate hydration,282
+yeast infection,antifungal diet,probiotics,low-sugar diet,garlic,coconut oil,771
+spina bifida,folate-rich foods,nutrient-dense diet,high-fiber diet,adequate hydration,balanced diet,664
+drug poisoning due to medication,adequate hydration,bland diet,electrolyte-rich foods,avoid liver-stressful foods,small frequent meals,204
+alcoholic liver disease,low-sodium diet,high-protein diet,liver-healthy foods,b-vitamin-rich foods,avoid alcohol,28
+malignant hypertension,low-sodium diet,dash diet,potassium-rich foods,omega-3-rich fish,avoid caffeine,437
+diverticulitis,low-fiber diet during flare,high-fiber when stable,adequate hydration,avoid seeds and nuts during flare,probiotic-rich foods,196
+moyamoya disease,heart-healthy diet,anti-inflammatory diet,omega-3-rich fish,antioxidant-rich foods,adequate hydration,456
+heat exhaustion,adequate hydration,electrolyte-rich foods,cool liquids,sports drinks,avoid alcohol,309
+psychotic disorder,omega-3-rich foods,b-vitamin-rich foods,antioxidant-rich foods,avoid alcohol,balanced diet,606
+frostbite,high-calorie diet,warm fluids,antioxidant-rich foods,vitamin e-rich foods,omega-3-rich fish,275
+atrophy of the corpus cavernosum,antioxidant-rich diet,nitric oxide-boosting foods,omega-3-rich fish,zinc-rich foods,l-arginine-rich foods,64
+smoking or tobacco addiction,antioxidant-rich diet,vitamin c-rich foods,folate-rich foods,omega-3-rich fish,avoid alcohol,658
+sprain or strain,anti-inflammatory diet,protein-rich diet,vitamin c-rich foods,collagen-boosting foods,adequate hydration,672
+essential tremor,avoid caffeine,adequate hydration,b-vitamin-rich foods,magnesium-rich foods,anti-inflammatory diet,236
+open wound of the ear,vitamin c-rich foods,zinc-rich foods,immune-boosting foods,adequate hydration,protein-rich diet,494
+foreign body in the nose,adequate hydration,vitamin c-rich foods,anti-inflammatory diet,balanced diet,zinc-rich foods,256
+idiopathic painful menstruation,anti-inflammatory diet,omega-3-rich fish,magnesium-rich foods,vitamin d-rich foods,avoid excess caffeine,362
+down syndrome,balanced nutrient-dense diet,omega-3-rich foods,folate-rich foods,antioxidant-rich foods,adequate hydration,198
+idiopathic infrequent menstruation,balanced diet,iron-rich foods,folate-rich foods,omega-3-rich fish,adequate calorie intake,359
+pneumothorax,high-protein diet,anti-inflammatory diet,adequate hydration,antioxidant-rich foods,avoid carbonated drinks,566
+de quervain disease,anti-inflammatory diet,omega-3-rich fish,vitamin c-rich foods,antioxidant-rich foods,adequate hydration,166
+fracture of the vertebra,calcium-rich foods,vitamin d-rich foods,high-protein diet,anti-inflammatory diet,adequate hydration,273
+human immunodeficiency virus infection (hiv),high-protein diet,nutrient-dense foods,antioxidant-rich foods,adequate hydration,food safety precautions,331
+subarachnoid hemorrhage,low-sodium diet,anti-inflammatory diet,adequate hydration,antioxidant-rich foods,adequate protein,681
+acute fatty liver of pregnancy (aflp),low-fat diet,high-carbohydrate diet,small frequent meals,avoid fatty foods,adequate hydration,13
+ectropion,vitamin a-rich foods,omega-3-rich fish,antioxidant-rich diet,adequate hydration,zinc-rich foods,215
+scar,vitamin e-rich foods,vitamin c-rich foods,collagen-boosting foods,zinc-rich foods,omega-3-rich fish,632
+eustachian tube dysfunction (ear disorder),anti-inflammatory diet,adequate hydration,vitamin c-rich foods,avoid dairy if mucus-forming,zinc-rich foods,237
+graves disease,anti-inflammatory diet,calcium-rich foods,vitamin d-rich foods,avoid iodine excess,adequate hydration,296
+dissociative disorder,balanced diet,omega-3-rich foods,b-vitamin-rich foods,magnesium-rich foods,avoid excess caffeine,195
+open wound of the face,soft diet,protein-rich diet,vitamin c-rich foods,zinc-rich foods,adequate hydration,496
+dislocation of the vertebra,anti-inflammatory diet,calcium-rich foods,vitamin d-rich foods,protein-rich diet,adequate hydration,193
+phimosis,anti-inflammatory diet,vitamin e-rich foods,adequate hydration,zinc-rich foods,balanced diet,553
+hyperemesis gravidarum,small frequent meals,dry crackers,ginger,bland foods,adequate hydration,339
+pregnancy,folate-rich foods,iron-rich foods,calcium-rich foods,protein-rich diet,omega-3-rich fish,585
+thalassemia,folate-rich foods,iron-moderated diet,vitamin c-rich foods,calcium-rich foods,adequate hydration,697
+placenta previa,iron-rich foods,folate-rich foods,calcium-rich foods,protein-rich diet,adequate hydration,560
+epidural hemorrhage,anti-inflammatory diet,adequate hydration,antioxidant-rich foods,vitamin k-rich foods,lean proteins,229
+septic arthritis,high-protein diet,immune-boosting foods,vitamin c-rich foods,anti-inflammatory diet,adequate hydration,646
+athlete's foot,antifungal diet,low-sugar diet,probiotics,garlic,vitamin c-rich foods,58
+pleural effusion,low-sodium diet,high-protein diet,adequate hydration,anti-inflammatory diet,diuretic-friendly foods,563
+aphakia,vitamin a-rich foods,antioxidant-rich diet,leafy green vegetables,omega-3-rich fish,zinc-rich foods,46
+vulvar disorder,anti-inflammatory diet,probiotic-rich foods,vitamin c-rich foods,adequate hydration,low-sugar diet,765
+sialoadenitis,adequate hydration,citrus juices,soft diet,vitamin c-rich foods,anti-inflammatory foods,648
+gynecomastia,low-fat diet,avoid phytoestrogens excess,zinc-rich foods,cruciferous vegetables,avoid alcohol,299
+histoplasmosis,immune-boosting foods,antifungal diet,adequate hydration,high-protein diet,antioxidant-rich foods,328
+erythema multiforme,anti-inflammatory diet,vitamin c-rich foods,omega-3-rich fish,antioxidant-rich foods,adequate hydration,232
+scoliosis,calcium-rich foods,vitamin d-rich foods,anti-inflammatory diet,protein-rich diet,adequate hydration,638
+arrhythmia,low-sodium diet,potassium-rich foods,magnesium-rich foods,omega-3-rich fish,avoid caffeine,50
+trigeminal neuralgia,soft diet,avoid trigger temperature foods,magnesium-rich foods,omega-3-rich fish,anti-inflammatory diet,723
+ankylosing spondylitis,anti-inflammatory diet,omega-3-rich fish,vitamin d-rich foods,calcium-rich foods,fruits and vegetables,43
+peripheral nerve disorder,vitamin b12 foods,omega-3-rich fish,anti-inflammatory diet,antioxidant-rich foods,adequate hydration,545
+sebaceous cyst,low-fat diet,anti-inflammatory diet,zinc-rich foods,antioxidant-rich foods,adequate hydration,641
+poisoning due to antipsychotics,adequate hydration,electrolyte-rich foods,bland diet,balanced diet,avoid alcohol,572
+neurosis,balanced diet,omega-3-rich foods,b-vitamin-rich foods,magnesium-rich foods,avoid excess caffeine,477
+prostate cancer,lycopene-rich foods,cruciferous vegetables,low-fat diet,omega-3-rich fish,avoid excess calcium,599
+cerebral edema,low-sodium diet,anti-inflammatory diet,adequate hydration,antioxidant-rich foods,avoid alcohol,106
+dislocation of the finger,anti-inflammatory diet,calcium-rich foods,vitamin c-rich foods,collagen-boosting foods,adequate hydration,187
+birth trauma,high-calorie diet,protein-rich diet,iron-rich foods,vitamin c-rich foods,adequate hydration,76
+chronic pancreatitis,low-fat diet,small frequent meals,avoid alcohol,high-protein diet,adequate hydration,128
+hematoma,iron-rich foods,vitamin c-rich foods,anti-inflammatory diet,vitamin k-rich foods,adequate hydration,313
+carcinoid syndrome,low-amine diet,small frequent meals,avoid trigger foods,high-protein diet,niacin-rich foods,96
+open wound of the head,high-protein diet,omega-3-rich fish,vitamin c-rich foods,antioxidant-rich foods,adequate hydration,500
+seborrheic keratosis,antioxidant-rich diet,vitamin e-rich foods,omega-3-rich foods,adequate hydration,balanced diet,643
+burn,high-calorie diet,high-protein diet,vitamin c-rich foods,zinc-rich foods,adequate hydration,92
+spontaneous abortion,iron-rich foods,folate-rich foods,protein-rich diet,vitamin c-rich foods,adequate hydration,670
+adjustment reaction,balanced diet,b-vitamin-rich foods,omega-3-rich foods,magnesium-rich foods,adequate hydration,22
+gallstone,low-fat diet,high-fiber diet,small frequent meals,adequate hydration,avoid fried foods,280
+zenker diverticulum,soft liquid diet,small frequent meals,avoid fibrous foods,adequate hydration,thickened liquids if needed,772
+fracture of the pelvis,calcium-rich foods,vitamin d-rich foods,high-protein diet,iron-rich foods,adequate hydration,269
+pneumoconiosis,anti-inflammatory diet,antioxidant-rich foods,omega-3-rich fish,adequate hydration,high-protein diet,564
+hyperlipidemia,low-saturated fat diet,high-fiber diet,omega-3-rich fish,plant sterols,avoid trans fats,343
+ulcerative colitis,low-residue diet during flare,omega-3-rich fish,probiotics,avoid trigger foods,adequate hydration,729
+male genitalia infection,probiotic-rich foods,vitamin c-rich foods,zinc-rich foods,low-sugar diet,adequate hydration,436
+hpv,folate-rich foods,antioxidant-rich diet,vitamin c-rich foods,immune-boosting foods,adequate hydration,330
+angina,heart-healthy diet,low-sodium foods,omega-3-rich fish,fruits and vegetables,whole grains,42
+injury to the spinal cord,high-protein diet,omega-3-rich fish,antioxidant-rich foods,adequate hydration,high-fiber diet,383
+nasal polyp,anti-inflammatory diet,omega-3-rich fish,vitamin c-rich foods,avoid aspirin-containing foods,adequate hydration,470
+lichen simplex,anti-inflammatory diet,omega-3-rich foods,probiotics,avoid allergen foods,adequate hydration,420
+trichiasis,vitamin a-rich foods,antioxidant-rich diet,omega-3-rich fish,zinc-rich foods,adequate hydration,719
+acariasis,anti-inflammatory diet,immune-boosting foods,vitamin c-rich foods,zinc-rich foods,adequate hydration,6
+skin pigmentation disorder,antioxidant-rich diet,vitamin c-rich foods,folate-rich foods,vitamin b12 foods,omega-3-rich fish,656
+factitious disorder,balanced nutritious diet,regular meal schedule,adequate hydration,nutrient-dense foods,dietitian guidance,240
+lymphogranuloma venereum,immune-boosting foods,vitamin c-rich foods,zinc-rich foods,anti-inflammatory diet,adequate hydration,431
+galactorrhea of unknown cause,balanced diet,avoid excessive supplements,adequate hydration,protein-rich diet,low-fat dairy,279
+g6pd enzyme deficiency,avoid trigger foods,avoid fava beans,vitamin c-rich foods,iron-rich foods,adequate hydration,278
+nerve impingement near the shoulder,anti-inflammatory diet,vitamin b12 foods,omega-3-rich fish,magnesium-rich foods,adequate hydration,473
+toxoplasmosis,immune-boosting foods,vitamin c-rich foods,zinc-rich foods,anti-inflammatory diet,adequate hydration,716
+fibroadenoma,low-fat diet,high-fiber diet,cruciferous vegetables,avoid caffeine,antioxidant-rich foods,244
+open wound of the hand,protein-rich diet,vitamin c-rich foods,zinc-rich foods,anti-inflammatory diet,adequate hydration,499
+missed abortion,iron-rich foods,folate-rich foods,protein-rich diet,vitamin c-rich foods,adequate hydration,450
+diabetic ketoacidosis,consistent carbohydrate diet,adequate hydration,electrolyte-rich foods,low-glycemic diet,small frequent meals,180
+granuloma inguinale,immune-boosting foods,vitamin c-rich foods,zinc-rich foods,anti-inflammatory diet,adequate hydration,295
+obsessive compulsive disorder (ocd),omega-3-rich foods,tryptophan-rich foods,b-vitamin-rich foods,avoid excess caffeine,balanced diet,483
+injury of the ankle,anti-inflammatory diet,calcium-rich foods,protein-rich diet,vitamin c-rich foods,adequate hydration,372
+hyponatremia,sodium-rich foods if needed,fluid restriction if dilutional,electrolyte balance,balanced diet,follow medical guidance,353
+stricture of the esophagus,soft liquid diet,high-calorie diet,protein-rich diet,small frequent meals,adequate hydration,677
+fracture of the ankle,calcium-rich foods,vitamin d-rich foods,protein-rich diet,vitamin c-rich foods,adequate hydration,259
+soft tissue sarcoma,high-protein diet,antioxidant-rich foods,anti-inflammatory diet,adequate hydration,nutrient-dense foods,660
+bone disorder,calcium-rich foods,vitamin d-rich foods,phosphorus-rich foods,vitamin k-rich foods,magnesium-rich foods,83
+personality disorder,balanced diet,omega-3-rich foods,b-vitamin-rich foods,avoid excess alcohol,regular meal schedule,550
+shingles (herpes zoster),lysine-rich foods,vitamin c-rich foods,zinc-rich foods,immune-boosting foods,avoid arginine-rich foods,647
+tourette syndrome,omega-3-rich foods,avoid artificial additives,magnesium-rich foods,zinc-rich foods,balanced diet,714
+avascular necrosis,calcium-rich foods,vitamin d-rich foods,anti-inflammatory diet,omega-3-rich fish,avoid alcohol,68
+spinocerebellar ataxia,antioxidant-rich diet,omega-3-rich fish,coenzyme q10 foods,adequate hydration,b-vitamin-rich foods,666
+sjogren syndrome,adequate hydration,omega-3-rich fish,anti-inflammatory diet,avoid alcohol,soft moist foods,653
+adhesive capsulitis of the shoulder,anti-inflammatory diet,omega-3-rich fish,vitamin d-rich foods,calcium-rich foods,antioxidant-rich foods,21
+viral hepatitis,low-fat diet,high-carbohydrate diet,fruits and vegetables,adequate hydration,avoid alcohol,754
+tonsillar hypertrophy,soft diet,anti-inflammatory diet,vitamin c-rich foods,adequate hydration,zinc-rich foods,709
+skin cancer,antioxidant-rich diet,lycopene-rich foods,beta-carotene foods,omega-3-rich fish,vitamin d-rich foods,654
+aphthous ulcer,soft bland diet,avoid acidic foods,vitamin b12 foods,folate-rich foods,zinc-rich foods,47
+intestinal cancer,high-fiber diet,plant-based diet,low red meat,antioxidant-rich foods,adequate hydration,389
+stomach cancer,soft diet,high-protein diet,small frequent meals,avoid salty and smoked foods,antioxidant-rich foods,674
+developmental disability,nutrient-dense balanced diet,omega-3-rich foods,iron-rich foods,b-vitamin-rich foods,adequate hydration,176
+acute stress reaction,balanced diet,magnesium-rich foods,b-vitamin-rich foods,omega-3-rich foods,avoid excess caffeine,20
+delirium,adequate hydration,nutrient-dense foods,small frequent meals,b-vitamin-rich foods,electrolyte-rich foods,170
+callus,vitamin e-rich foods,adequate hydration,omega-3-rich foods,zinc-rich foods,balanced diet,94
+guillain barre syndrome,high-calorie diet,high-protein diet,soft diet if needed,omega-3-rich fish,adequate hydration,297
+lumbago,anti-inflammatory diet,calcium-rich foods,vitamin d-rich foods,omega-3-rich fish,weight management diet,424
+deviated nasal septum,anti-inflammatory diet,adequate hydration,vitamin c-rich foods,zinc-rich foods,avoid dairy if mucus-forming,177
+hemangioma,anti-inflammatory diet,antioxidant-rich foods,vitamin c-rich foods,adequate hydration,balanced diet,311
+peripheral arterial disease,heart-healthy diet,low-saturated fat,omega-3-rich fish,antioxidant-rich foods,avoid smoking,543
+chronic back pain,anti-inflammatory diet,omega-3-rich fish,magnesium-rich foods,vitamin d-rich foods,calcium-rich foods,119
+heart failure,low-sodium diet,fluid restriction,heart-healthy diet,omega-3-rich fish,avoid alcohol,308
+conjunctivitis,vitamin a-rich foods,vitamin c-rich foods,omega-3-rich fish,antioxidant-rich diet,zinc-rich foods,144
+herniated disk,anti-inflammatory diet,calcium-rich foods,vitamin d-rich foods,omega-3-rich fish,weight management diet,321
+rhabdomyolysis,adequate hydration,electrolyte-rich foods,low-potassium diet if needed,avoid statins with grapefruit,balanced diet,623
+breast infection (mastitis),immune-boosting foods,vitamin c-rich foods,adequate hydration,probiotic-rich foods,zinc-rich foods,89
+abdominal aortic aneurysm,heart-healthy diet,low-sodium foods,fruits and vegetables,whole grains,lean proteins,0
+conduct disorder,omega-3-rich foods,iron-rich foods,zinc-rich foods,avoid artificial additives,balanced diet,140
+mastectomy,high-protein diet,antioxidant-rich foods,iron-rich foods,anti-inflammatory diet,adequate hydration,439
+epididymitis,adequate hydration,anti-inflammatory diet,vitamin c-rich foods,zinc-rich foods,probiotic-rich foods,228
+premature rupture of amniotic membrane,high-protein diet,iron-rich foods,vitamin c-rich foods,folate-rich foods,adequate hydration,588
+molluscum contagiosum,immune-boosting foods,vitamin c-rich foods,zinc-rich foods,anti-inflammatory diet,adequate hydration,453
+benign vaginal discharge (leukorrhea),probiotic-rich foods,low-sugar diet,vitamin c-rich foods,garlic,adequate hydration,74
+bladder obstruction,adequate hydration,high-fiber diet,low-sodium diet,avoid bladder irritants,anti-inflammatory foods,79
+cervical disorder,anti-inflammatory diet,calcium-rich foods,vitamin d-rich foods,omega-3-rich fish,fruits and vegetables,109
+dyshidrosis,anti-inflammatory diet,avoid nickel-rich foods,omega-3-rich fish,probiotics,zinc-rich foods,209
+poisoning due to opioids,adequate hydration,high-fiber diet,b-vitamin-rich foods,electrolyte-rich foods,balanced diet,575
+diaper rash,probiotic-rich foods,vitamin a-rich foods,zinc-rich foods,adequate hydration,balanced diet,184
+lichen planus,anti-inflammatory diet,avoid acidic foods,vitamin d-rich foods,omega-3-rich fish,avoid spicy foods,419
+gastroduodenal ulcer,low-acid diet,fiber-rich foods,probiotic-rich foods,avoid nsaids,avoid alcohol,284
+inguinal hernia,high-fiber diet,adequate hydration,avoid constipating foods,low-fat diet,small frequent meals,371
+asperger syndrome,balanced nutritious diet,omega-3-rich foods,probiotic-rich foods,avoid food additives,gluten-free if needed,53
+mucositis,soft bland diet,cool liquids,nutritional supplements if needed,avoid acidic and spicy foods,adequate hydration,457
+paronychia,vitamin c-rich foods,zinc-rich foods,immune-boosting foods,adequate hydration,anti-inflammatory diet,535
+open wound of the jaw,liquid diet,soft foods,protein-rich diet,vitamin c-rich foods,adequate hydration,501
+white blood cell disease,immune-boosting foods,high-protein diet,iron-rich foods,antioxidant-rich foods,adequate hydration,768
+kaposi sarcoma,immune-boosting foods,antioxidant-rich diet,high-protein diet,adequate hydration,anti-inflammatory foods,406
+spondylolisthesis,anti-inflammatory diet,calcium-rich foods,vitamin d-rich foods,weight management diet,adequate hydration,668
+pseudotumor cerebri,weight management diet,low-sodium diet,adequate hydration,vitamin a avoidance,high-fiber diet,603
+conjunctivitis due to virus,immune-boosting foods,vitamin c-rich foods,zinc-rich foods,antioxidant-rich diet,adequate hydration,147
+open wound of the nose,vitamin c-rich foods,zinc-rich foods,protein-rich diet,anti-inflammatory diet,adequate hydration,506
