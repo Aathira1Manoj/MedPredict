@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 
-const API_BASE = import.meta.env.API_BASE;
+const API_BASE = import.meta.env.API_BASE || "http://localhost:8000";
 
 // Convert snake_case pkl column → readable label: "joint_pain" → "Joint pain"
 const pklToLabel = (col) =>
