@@ -5,3 +5,6 @@ numpy
 joblib
 catboost
 requests
+scikit-learn
+pydantic
+python-multipart
