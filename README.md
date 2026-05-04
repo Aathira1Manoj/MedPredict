@@ -1,6 +1,6 @@
-# 🏥 MedPredict – Disease Prediction System with Chatbot
+# 🏥 MediPredict – Disease Prediction System with Chatbot
 
-MedPredict is a full-stack AI-powered healthcare application that predicts diseases based on user symptoms and provides intelligent chatbot assistance for better understanding and guidance.
+MediPredict is a full-stack AI-powered healthcare application that predicts diseases based on user symptoms and provides intelligent chatbot assistance for better understanding and guidance.
 
 ---
 
@@ -33,12 +33,15 @@ MedPredict is a full-stack AI-powered healthcare application that predicts disea
 **Frontend**  
 - React.js  
 - HTML, CSS, JavaScript  
+
 **Backend**  
 - FastAPI  
 - Python  
+
 **Machine Learning**  
 - Scikit-learn / ML models  
 - Pandas, NumPy  
+
 **Deployment**  
 - Vercel (Frontend)  
 - Render (Backend)  
@@ -103,7 +106,7 @@ http://127.0.0.1:8000
 
 ---
 
-3️⃣ Frontend Setup (React)
+3️⃣ **Frontend Setup (React)**
 ```
 cd frontend
 
@@ -118,15 +121,6 @@ Frontend runs on:
 ```
 http://localhost:3000
 ```
-
----
-
-## 🔗 API Endpoints (Example)
-|Method|Endpoint|Description|
-|:--|:--|:--|
-|POST|/predict|Predict disease|
-|GET|/|Health check|
-|POST|/chat|Chatbot interaction|
 
 ---
 
