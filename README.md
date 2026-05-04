@@ -2,62 +2,62 @@
 
 MedPredict is a full-stack AI-powered healthcare application that predicts diseases based on user symptoms and provides intelligent chatbot assistance for better understanding and guidance.
 
-🚀 Live Demo
-🌐 Frontend: https://med-predict-two.vercel.app/
-⚙️ Backend API: https://medipredict-9st2.onrender.com
-📌 Features
-🧠 Disease Prediction
-Predicts possible diseases based on user-input symptoms
-Uses machine learning models for accurate classification
-🤖 AI Chatbot
-Provides interactive health-related responses
-Enhances user understanding of predicted conditions
-⚡ FastAPI Backend
-High-performance REST APIs
-Handles model inference and data processing
-🎨 React Frontend
-Clean and responsive UI
-User-friendly input forms and result display
-☁️ Deployment
-Frontend hosted on Vercel
-Backend deployed on Render
-🏗️ Tech Stack
-Frontend
-React.js
-HTML, CSS, JavaScript
-Backend
-FastAPI
-Python
-Machine Learning
-Scikit-learn / ML models
-Pandas, NumPy
-Deployment
-Vercel (Frontend)
-Render (Backend)
-📂 Project Structure
-MedPredict/
-│
-├── data
-│  └── FAQ.txt
-│  └── diets_cleaned.csv
-├── frontend_react/
-│  ├── src/
-│    └── App.jsx
-├── output
-│  └── catboost_disease_model.cbm
-│  └── disease_map.pkl
-│  └── feature_cols.pkl
-│  └── label_encoder.pkl
-│  └── symptom_cols.pkl
-├── main.py
-├── requirements.txt
-└── README.md
-⚙️ Installation & Setup
-1️⃣ Clone the Repository
-git clone https://github.com/Aathira1Manoj/MedPredict.git
-cd MedPredict
-2️⃣ Backend Setup (FastAPI)
-cd backend
+🚀 Live Demo  
+🌐 Frontend: https://med-predict-two.vercel.app/  
+⚙️ Backend API: https://medipredict-9st2.onrender.com  
+📌 Features  
+🧠 Disease Prediction  
+Predicts possible diseases based on user-input symptoms  
+Uses machine learning models for accurate classification  
+🤖 AI Chatbot  
+Provides interactive health-related responses  
+Enhances user understanding of predicted conditions  
+⚡ FastAPI Backend  
+High-performance REST APIs  
+Handles model inference and data processing  
+🎨 React Frontend  
+Clean and responsive UI  
+User-friendly input forms and result display  
+☁️ Deployment  
+Frontend hosted on Vercel  
+Backend deployed on Render  
+🏗️ Tech Stack  
+Frontend  
+React.js  
+HTML, CSS, JavaScript  
+Backend  
+FastAPI  
+Python  
+Machine Learning  
+Scikit-learn / ML models  
+Pandas, NumPy  
+Deployment  
+Vercel (Frontend)  
+Render (Backend)  
+📂 Project Structure  
+MedPredict/  
+│  
+├── data  
+│  └── FAQ.txt  
+│  └── diets_cleaned.csv  
+├── frontend_react/  
+│  ├── src/  
+│    └── App.jsx  
+├── output  
+│  └── catboost_disease_model.cbm  
+│  └── disease_map.pkl  
+│  └── feature_cols.pkl  
+│  └── label_encoder.pkl  
+│  └── symptom_cols.pkl  
+├── main.py  
+├── requirements.txt  
+└── README.md  
+⚙️ Installation & Setup  
+1️⃣ Clone the Repository  
+git clone https://github.com/Aathira1Manoj/MedPredict.git  
+cd MedPredict  
+2️⃣ Backend Setup (FastAPI)  
+cd backend  
 
 # Create virtual environment
 python -m venv venv
