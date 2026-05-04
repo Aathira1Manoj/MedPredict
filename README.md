@@ -83,7 +83,6 @@ cd MedPredict
 
 2️⃣ **Backend Setup (FastAPI)**  
 ```
-cd backend  
 
 # Create virtual environment
 python -m venv venv
@@ -108,18 +107,18 @@ http://127.0.0.1:8000
 
 3️⃣ **Frontend Setup (React)**
 ```
-cd frontend
+cd frontend_react
 
 # Install dependencies
 npm install
 
 # Run app
-npm start
+npm run dev
 ```
 
 Frontend runs on:  
 ```
-http://localhost:3000
+http://localhost:5173
 ```
 
 ---
@@ -128,8 +127,8 @@ http://localhost:3000
 1. User enters symptoms in the UI
 2. Data is sent to FastAPI backend
 3. ML model predicts the disease
-4. Chatbot provides additional insights
-5. Results displayed on frontend
+4. Results displayed on frontend
+5. Chatbot provides FAQ support
 
 ---
 
