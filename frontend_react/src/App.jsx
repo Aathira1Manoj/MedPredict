@@ -566,16 +566,16 @@ function AboutPage({ onBack, user, onLogout }) {
         {/* Feature grid */}
         <div className="about-feat-grid" style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: 20, marginBottom: 28 }}>
           {[
-            { icon: "🤖", title: "Machine Learning", color: "#06b6d4", bg: "#f0fdff", desc: "CatBoost model trained on thousands of real symptom-disease cases for high-accuracy predictions." },
-            { icon: "🍽️", title: "Generative AI Recipes", color: "#3b82f6", bg: "#eff6ff", desc: "AI-powered meal plans and food recommendations tailored to each predicted condition." },
-            { icon: "🩺", title: "Early Awareness", color: "#10b981", bg: "#f0fdf4", desc: "Supports early-stage medical awareness by surfacing likely conditions from user-reported symptoms." },
-            { icon: "📊", title: "Health Literacy", color: "#8b5cf6", bg: "#f5f3ff", desc: "Improves overall health literacy and well-being through actionable diet and lifestyle guidance." },
-          ].map(({ icon, title, color, bg, desc }) => (
+            { title: "Machine Learning", color: "#06b6d4", bg: "#f0fdff", desc: "CatBoost model trained on thousands of real symptom-disease cases for high-accuracy predictions." },
+            { title: "Generative AI Recipes", color: "#3b82f6", bg: "#eff6ff", desc: "AI-powered meal plans and food recommendations tailored to each predicted condition." },
+            { title: "Early Awareness", color: "#10b981", bg: "#f0fdf4", desc: "Supports early-stage medical awareness by surfacing likely conditions from user-reported symptoms." },
+            { title: "Health Literacy", color: "#8b5cf6", bg: "#f5f3ff", desc: "Improves overall health literacy and well-being through actionable diet and lifestyle guidance." },
+          ].map(({ title, color, bg, desc }) => (
             <div key={title} className="about-feat-card" style={{
               background: bg, borderRadius: 20, padding: "28px 28px",
               border: `1px solid ${color}25`, boxShadow: "0 2px 16px #06b6d410",
             }}>
-              <div style={{ fontSize: 32, marginBottom: 12 }}>{icon}</div>
+            
               <div style={{ fontWeight: 800, color: "#0f172a", fontSize: 15, marginBottom: 8 }}>{title}</div>
               <div style={{ fontSize: 13, color: "#64748b", lineHeight: 1.65 }}>{desc}</div>
             </div>
@@ -977,7 +977,7 @@ export default function MediPredict() {
             }}>LEARN MORE</button>
           </div>
           <div className="stats-row" style={{ display: "flex", gap: 36, marginTop: 48 }}>
-            {[["95%", "Accuracy Rate"], ["100+", "Diseases"], ["Instant", "Results"]].map(([n, l]) => (
+            {[["90%", "Accuracy Rate"], ["200+", "Diseases"], ["Instant", "Results"]].map(([n, l]) => (
               <div key={l}>
                 <div style={{ fontSize: 26, fontWeight: 800, color: "#0891b2" }}>{n}</div>
                 <div style={{ fontSize: 12, color: "#94a3b8", fontWeight: 500, marginTop: 2 }}>{l}</div>
