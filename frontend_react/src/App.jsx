@@ -795,7 +795,10 @@ export default function MediPredict() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           messages: [
-            ...chatMsgs.filter(m => m.role !== "bot").map(m => ({ role: "user", content: m.text })),
+            ...chatMsgs
+              .filter(m => m.role !== "bot" || m.text !== chatMsgs[0].text) // skip initial greeting
+              .filter(m => m.role === "user" || m.role === "bot")
+              .map(m => ({ role: m.role === "bot" ? "assistant" : "user", content: m.text })),
             { role: "user", content: text }
           ]
         })
