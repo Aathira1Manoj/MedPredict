@@ -192,8 +192,10 @@ Do not use bullet points. Do not include headers. Plain paragraph only.
         response = requests.post(GROQ_URL, headers=headers, json=payload, timeout=15)
         if response.status_code == 200:
             return response.json()["choices"][0]["message"]["content"].strip()
+        print(f"[GROQ disease_summary] status={response.status_code} body={response.text[:300]}")
         return ""
-    except Exception:
+    except Exception as e:
+        print(f"[GROQ disease_summary] exception: {e}")
         return ""
 
 
@@ -261,9 +263,78 @@ Do not add foods not mentioned in the list above. Keep it concise and safe.
         if response.status_code == 200:
             return response.json()["choices"][0]["message"]["content"]
         else:
+            print(f"[GROQ meal_plan] status={response.status_code} body={response.text[:300]}")
             return "Meal recommendation unavailable (LLM error)."
-    except Exception:
+    except Exception as e:
+        print(f"[GROQ meal_plan] exception: {e}")
         return "Meal recommendation unavailable (network error)."
+
+# =========================================================
+# Load FAQ
+# =========================================================
+
+FAQ_PATH = "data/FAQ.txt"
+FAQ_CONTENT = ""
+if os.path.exists(FAQ_PATH):
+    with open(FAQ_PATH, "r", encoding="utf-8") as f:
+        FAQ_CONTENT = f.read()
+else:
+    print(f"[WARNING] FAQ file not found at {FAQ_PATH}")
+
+FAQ_SYSTEM_PROMPT = f"""You are a helpful and friendly assistant for MediPredict, an AI-powered disease prediction and diet recommendation web app.
+
+Answer ONLY questions related to MediPredict using the FAQ knowledge base below. Be concise, warm, and clear.
+If the question is unrelated to MediPredict or health tools, politely say you can only help with MediPredict-related questions.
+Never give personal medical diagnoses. For any health concerns, always recommend consulting a qualified doctor.
+Do NOT use markdown formatting, asterisks, bold, or bullet dashes in your responses. Write in plain, clean sentences only.
+
+FAQ KNOWLEDGE BASE:
+{FAQ_CONTENT}"""
+
+# =========================================================
+# Chat Schema
+# =========================================================
+
+class ChatMessage(BaseModel):
+    role: str   # "user" or "assistant"
+    content: str
+
+class ChatRequest(BaseModel):
+    messages: List[ChatMessage]
+
+# =========================================================
+# Chat Endpoint
+# =========================================================
+
+@app.post("/chat")
+def chat(data: ChatRequest):
+    payload = {
+        "model": MODEL_NAME,
+        "messages": [
+            {"role": "system", "content": FAQ_SYSTEM_PROMPT},
+            *[{"role": m.role, "content": m.content} for m in data.messages]
+        ]
+    }
+    headers = {
+        "Authorization": f"Bearer {GROQ_API_KEY}",
+        "Content-Type": "application/json"
+    }
+    try:
+        response = requests.post(GROQ_URL, headers=headers, json=payload, timeout=15)
+        if response.status_code == 200:
+            reply = response.json()["choices"][0]["message"]["content"]
+            # Strip think tags and markdown
+            import re
+            reply = re.sub(r"<think>[\s\S]*?</think>", "", reply, flags=re.IGNORECASE)
+            reply = re.sub(r"<[^>]+>", "", reply)
+            reply = re.sub(r"\*+", "", reply)
+            reply = reply.strip()
+            return {"reply": reply}
+        print(f"[GROQ chat] status={response.status_code} body={response.text[:300]}")
+        return {"reply": "Sorry, I couldn't process your question right now. Please try again."}
+    except Exception as e:
+        print(f"[GROQ chat] exception: {e}")
+        return {"reply": "Network error. Please try again later."}
 
 # =========================================================
 # API Endpoint
