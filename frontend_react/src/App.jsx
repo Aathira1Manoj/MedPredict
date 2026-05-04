@@ -555,7 +555,7 @@ function AboutPage({ onBack, user, onLogout }) {
           border: "1px solid #e0f7fa", boxShadow: "0 8px 40px #06b6d415", marginBottom: 28,
         }}>
           <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 22 }}>
-            <div style={{ width: 44, height: 44, borderRadius: 13, background: "linear-gradient(135deg,#06b6d4,#3b82f6)", display: "flex", alignItems: "center", justifyContent: "center", color: "#fff", fontSize: 22, flexShrink: 0 }}>🎯</div>
+   
             <h2 style={{ fontSize: 20, fontWeight: 800, color: "#0f172a" }}>Project Aim</h2>
           </div>
           <p style={{ fontSize: 15, color: "#475569", lineHeight: 1.9 }}>
