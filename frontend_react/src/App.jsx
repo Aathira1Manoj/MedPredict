@@ -782,6 +782,15 @@ export default function MediPredict() {
     "How does the diet plan work?",
   ];
 
+  const pickTwoChips = (exclude = []) => {
+    const pool = FAQ_CHIPS.filter(c => !exclude.includes(c));
+    const source = pool.length >= 2 ? pool : FAQ_CHIPS;
+    const shuffled = [...source].sort(() => Math.random() - 0.5);
+    return shuffled.slice(0, 2);
+  };
+
+  const [shownChips, setShownChips] = useState(() => pickTwoChips());
+
   const sendChat = async (msg) => {
     const text = (msg || chatInput).trim();
     if (!text || chatLoading) return;
@@ -811,6 +820,7 @@ export default function MediPredict() {
       setChatMsgs(prev => [...prev, { role: "bot", text: "Network error. Please check your connection and try again." }]);
     } finally {
       setChatLoading(false);
+      setShownChips(pickTwoChips([text]));
       setTimeout(() => chatEndRef.current?.scrollIntoView({ behavior: "smooth" }), 50);
     }
   };
@@ -1139,9 +1149,9 @@ export default function MediPredict() {
           </div>
 
           {/* FAQ chips */}
-          {chatMsgs.length <= 2 && (
+          {!chatLoading && (
             <div style={{ padding: "8px 14px 0", display: "flex", flexWrap: "wrap", gap: 6 }}>
-              {FAQ_CHIPS.map(q => (
+              {shownChips.map(q => (
                 <button key={q} className="faq-chip" onClick={() => sendChat(q)} style={{
                   padding: "5px 11px", borderRadius: 12, border: "1px solid #b2ebf2",
                   background: "#f0fdff", color: "#0891b2", fontSize: 11, fontWeight: 600,
