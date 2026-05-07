@@ -555,7 +555,7 @@ function AboutPage({ onBack, user, onLogout }) {
           border: "1px solid #e0f7fa", boxShadow: "0 8px 40px #06b6d415", marginBottom: 28,
         }}>
           <div style={{ display: "flex", alignItems: "center", gap: 12, marginBottom: 22 }}>
-   
+
             <h2 style={{ fontSize: 20, fontWeight: 800, color: "#0f172a" }}>Project Aim</h2>
           </div>
           <p style={{ fontSize: 15, color: "#475569", lineHeight: 1.9 }}>
@@ -575,7 +575,6 @@ function AboutPage({ onBack, user, onLogout }) {
               background: bg, borderRadius: 20, padding: "28px 28px",
               border: `1px solid ${color}25`, boxShadow: "0 2px 16px #06b6d410",
             }}>
-            
               <div style={{ fontWeight: 800, color: "#0f172a", fontSize: 15, marginBottom: 8 }}>{title}</div>
               <div style={{ fontSize: 13, color: "#64748b", lineHeight: 1.65 }}>{desc}</div>
             </div>
@@ -588,7 +587,7 @@ function AboutPage({ onBack, user, onLogout }) {
           padding: "24px 28px", border: "1px solid #fed7aa",
           display: "flex", gap: 14, alignItems: "flex-start",
         }}>
-          <span style={{ fontSize: 22, flexShrink: 0 }}>⚠️</span>
+          <span style={{ fontSize: 22, flexShrink: 0 }}></span>
           <p style={{ fontSize: 13, color: "#92400e", lineHeight: 1.7, margin: 0 }}>
             MediPredict is not a substitute for professional medical advice, diagnosis, or treatment. Always consult a qualified healthcare professional for any medical concerns.
           </p>
@@ -686,6 +685,9 @@ export default function MediPredict() {
       setError("Could not reach the prediction server. Make sure the backend is running on port 8000.");
     } finally { setLoading(false); }
   };
+
+  // ── Mobile Hamburger Menu State ────────────────────────────────────
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   // ── Chatbot State ──────────────────────────────────────────────────
   const [chatOpen, setChatOpen] = useState(false);
@@ -798,9 +800,12 @@ export default function MediPredict() {
           .feat-strip { padding: 0 16px 48px !important; gap: 12px !important; }
           .nav-links { display: none !important; }
           .nav-bar { padding: 14px 18px !important; }
-          .mobile-tab-bar { display: flex !important; }
+          .nav-desktop-btns { display: none !important; }
+          .nav-hamburger { display: flex !important; }
         }
-        .mobile-tab-bar { display: none; }
+        .nav-hamburger { display: none; }
+        @keyframes menuSlide { from { opacity:0; transform:translateY(-8px); } to { opacity:1; transform:translateY(0); } }
+        .mobile-menu { animation: menuSlide 0.2s ease both; }
       `}</style>
 
       {/* Nav */}
@@ -833,7 +838,7 @@ export default function MediPredict() {
           ))}
         </div>
         {user ? (
-          <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+          <div className="nav-desktop-btns" style={{ display: "flex", alignItems: "center", gap: 10 }}>
             <div style={{
               width: 36, height: 36, borderRadius: "50%",
               background: "linear-gradient(135deg,#06b6d4,#3b82f6)",
@@ -846,7 +851,7 @@ export default function MediPredict() {
             }}>Logout</button>
           </div>
         ) : (
-          <div style={{ display: "flex", gap: 10 }}>
+          <div className="nav-desktop-btns" style={{ display: "flex", gap: 10 }}>
             <button onClick={() => { setShowLanding(false); setPage("login"); }} style={{
               padding: "10px 20px", borderRadius: 24, border: "1.5px solid #b2ebf2",
               background: "#fff", color: "#0891b2", fontWeight: 700, fontSize: 14, cursor: "pointer",
@@ -858,7 +863,44 @@ export default function MediPredict() {
             }}>Get Started</button>
           </div>
         )}
+
+        {/* Hamburger — mobile only */}
+        <button className="nav-hamburger" onClick={() => setMobileMenuOpen(o => !o)} style={{
+          background: "none", border: "none", cursor: "pointer", padding: 6,
+          flexDirection: "column", justifyContent: "center", alignItems: "center", gap: 5,
+        }}>
+          <span style={{ display: "block", width: 24, height: 2.5, background: "#0891b2", borderRadius: 2, transition: "all 0.2s", transform: mobileMenuOpen ? "rotate(45deg) translate(5px,5px)" : "none" }} />
+          <span style={{ display: "block", width: 24, height: 2.5, background: "#0891b2", borderRadius: 2, transition: "all 0.2s", opacity: mobileMenuOpen ? 0 : 1 }} />
+          <span style={{ display: "block", width: 24, height: 2.5, background: "#0891b2", borderRadius: 2, transition: "all 0.2s", transform: mobileMenuOpen ? "rotate(-45deg) translate(5px,-5px)" : "none" }} />
+        </button>
       </nav>
+
+      {/* Mobile dropdown menu */}
+      {mobileMenuOpen && (
+        <>
+          <div onClick={() => setMobileMenuOpen(false)} style={{ position: "fixed", inset: 0, zIndex: 98 }} />
+          <div className="mobile-menu" style={{
+            position: "fixed", top: 65, left: 0, right: 0, zIndex: 99,
+            background: "rgba(255,255,255,0.98)", borderBottom: "1px solid #e0f7fa",
+            backdropFilter: "blur(12px)", boxShadow: "0 8px 32px #06b6d420",
+            padding: "8px 0 16px",
+          }}>
+            {[
+              { label: "Home", action: () => { setMobileMenuOpen(false); } },
+              { label: "About", action: () => { setMobileMenuOpen(false); setPage("about"); setShowLanding(false); } },
+              { label: "History", action: () => { setMobileMenuOpen(false); user ? (setPage("history"), setShowLanding(false)) : (setPage("login"), setShowLanding(false)); } },
+              { label: "Login", action: () => { setMobileMenuOpen(false); setShowLanding(false); setPage("login"); } },
+            ].map(({ label, action }) => (
+              <button key={label} onClick={action} style={{
+                display: "block", width: "100%", textAlign: "left",
+                padding: "14px 24px", background: "none", border: "none",
+                fontSize: 16, fontWeight: 600, color: "#0f172a", cursor: "pointer",
+                borderBottom: "1px solid #f0fdff",
+              }}>{label}</button>
+            ))}
+          </div>
+        </>
+      )}
 
       {/* Hero */}
       <div className="hero-row landing-hero" style={{
@@ -900,7 +942,7 @@ export default function MediPredict() {
             }}>LEARN MORE</button>
           </div>
           <div className="stats-row" style={{ display: "flex", gap: 36, marginTop: 48 }}>
-            {[["90%", "Accuracy Rate"], ["200+", "Diseases"], ["Instant", "Results"]].map(([n, l]) => (
+            {[["95%", "Accuracy Rate"], ["100+", "Diseases"], ["Instant", "Results"]].map(([n, l]) => (
               <div key={l}>
                 <div style={{ fontSize: 26, fontWeight: 800, color: "#0891b2" }}>{n}</div>
                 <div style={{ fontSize: 12, color: "#94a3b8", fontWeight: 500, marginTop: 2 }}>{l}</div>
@@ -974,27 +1016,7 @@ export default function MediPredict() {
         ))}
       </div>
 
-      {/* Mobile bottom tab bar */}
-      <div className="mobile-tab-bar" style={{
-        position: "fixed", bottom: 0, left: 0, right: 0, zIndex: 200,
-        background: "rgba(255,255,255,0.97)", borderTop: "1px solid #e0f7fa",
-        backdropFilter: "blur(12px)", padding: "10px 0 14px",
-        justifyContent: "space-around", alignItems: "center",
-      }}>
-        {[
-          { label: "Home", icon: "🏠", action: () => { } },
-          { label: "About", icon: "ℹ️", action: () => { setPage("about"); setShowLanding(false); } },
-          { label: user ? "History" : "Login", icon: "👤", action: () => user ? (setPage("history"), setShowLanding(false)) : (setPage("login"), setShowLanding(false)) },
-        ].map(({ label, icon, action }) => (
-          <button key={label} onClick={action} style={{
-            display: "flex", flexDirection: "column", alignItems: "center", gap: 3,
-            background: "none", border: "none", cursor: "pointer", padding: "4px 12px",
-          }}>
-            <span style={{ fontSize: 22 }}>{icon}</span>
-            <span style={{ fontSize: 10, fontWeight: 600, color: "#0891b2" }}>{label}</span>
-          </button>
-        ))}
-      </div>
+
 
       {/* ── Chatbot FAB ─────────────────────────────────────────── */}
       <button
