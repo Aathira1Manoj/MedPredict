@@ -1,4 +1,41 @@
 import { useState, useEffect, useRef } from "react";
+import { initializeApp } from "firebase/app";
+import {
+  getAuth,
+  createUserWithEmailAndPassword,
+  signInWithEmailAndPassword,
+  signOut,
+  onAuthStateChanged,
+  updateProfile,
+} from "firebase/auth";
+import {
+  getFirestore,
+  doc,
+  setDoc,
+  collection,
+  addDoc,
+  getDocs,
+  query,
+  orderBy,
+  limit,
+  serverTimestamp,
+} from "firebase/firestore";
+
+// ── Firebase Config ─────────────────────────────────────────────────
+// Replace these values with your Firebase project config
+const firebaseConfig = {
+  apiKey: "AIzaSyByMUrDnIWVKFwQU8htMDGxavSwFjac4Ow",
+  authDomain: "medipredict-9427c.firebaseapp.com",
+  projectId: "medipredict-9427c",
+  storageBucket: "medipredict-9427c.firebasestorage.app",
+  messagingSenderId: "776833884801",
+  appId: "1:776833884801:web:07d29da1c44aa6c243e380",
+  measurementId: "G-1B150LCG1H",
+};
+
+const firebaseApp = initializeApp(firebaseConfig);
+const firebaseAuth = getAuth(firebaseApp);
+const firestoreDb = getFirestore(firebaseApp);
 
 const API_BASE = "https://medipredict-9st2.onrender.com";
 
@@ -299,31 +336,41 @@ function ColoredMealPlan({ text }) {
 }
 
 // ── Login / Register Page ─────────────────────────────────────────
-function LoginPage({ onLogin, onBack }) {
+function LoginPage({ onBack }) {
   const [mode, setMode] = useState("login"); // "login" | "register"
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
+  const [authLoading, setAuthLoading] = useState(false);
 
-  const handleSubmit = () => {
+  const handleSubmit = async () => {
     setError("");
     if (!email || !password) { setError("Email and password required."); return; }
     if (mode === "register" && !name) { setError("Name required."); return; }
     if (password.length < 6) { setError("Password must be at least 6 characters."); return; }
-
-    if (mode === "register") {
-      const users = JSON.parse(localStorage.getItem("medi_users") || "{}");
-      if (users[email]) { setError("Email already registered."); return; }
-      users[email] = { name, password };
-      localStorage.setItem("medi_users", JSON.stringify(users));
-      onLogin({ name, email });
-    } else {
-      const users = JSON.parse(localStorage.getItem("medi_users") || "{}");
-      const u = users[email];
-      if (!u || u.password !== password) { setError("Invalid email or password."); return; }
-      onLogin({ name: u.name, email });
-    }
+    setAuthLoading(true);
+    try {
+      if (mode === "register") {
+        const cred = await createUserWithEmailAndPassword(firebaseAuth, email, password);
+        await updateProfile(cred.user, { displayName: name });
+        await setDoc(doc(firestoreDb, "users", cred.user.uid), {
+          uid: cred.user.uid, email, name, createdAt: serverTimestamp(),
+        });
+      } else {
+        await signInWithEmailAndPassword(firebaseAuth, email, password);
+      }
+      onBack();
+    } catch (e) {
+      const msg = {
+        "auth/email-already-in-use": "Email already registered.",
+        "auth/user-not-found": "No account with that email.",
+        "auth/wrong-password": "Incorrect password.",
+        "auth/invalid-email": "Invalid email address.",
+        "auth/invalid-credential": "Invalid email or password.",
+      }[e.code] || e.message;
+      setError(msg);
+    } finally { setAuthLoading(false); }
   };
 
   return (
@@ -390,12 +437,12 @@ function LoginPage({ onLogin, onBack }) {
 
             {error && <p style={{ color: "#ef4444", fontSize: 13, marginBottom: 16, textAlign: "center" }}>{error}</p>}
 
-            <button onClick={handleSubmit} style={{
+            <button onClick={handleSubmit} disabled={authLoading} style={{
               width: "100%", padding: "14px", borderRadius: 22, border: "none",
-              background: "linear-gradient(135deg,#06b6d4,#3b82f6)",
-              color: "#fff", fontWeight: 700, fontSize: 15, cursor: "pointer",
-              boxShadow: "0 5px 20px #06b6d438",
-            }}>{mode === "login" ? "Sign In →" : "Create Account →"}</button>
+              background: authLoading ? "#94a3b8" : "linear-gradient(135deg,#06b6d4,#3b82f6)",
+              color: "#fff", fontWeight: 700, fontSize: 15, cursor: authLoading ? "not-allowed" : "pointer",
+              boxShadow: authLoading ? "none" : "0 5px 20px #06b6d438",
+            }}>{authLoading ? "Please wait..." : mode === "login" ? "Sign In →" : "Create Account →"}</button>
           </div>
         </div>
       </div>
@@ -613,27 +660,49 @@ export default function MediPredict() {
   const [activeTab, setActiveTab] = useState(0);
   const [showLanding, setShowLanding] = useState(true);
   const [page, setPage] = useState("home"); // "home" | "login" | "history" | "about"
-  const [user, setUser] = useState(() => {
-    try { return JSON.parse(localStorage.getItem("medi_user")); } catch { return null; }
-  });
-  const [predictionHistory, setPredictionHistory] = useState(() => {
-    try { return JSON.parse(localStorage.getItem("medi_history")) || []; } catch { return []; }
-  });
+  const [user, setUser] = useState(null);
+  const [authReady, setAuthReady] = useState(false);
+  const [predictionHistory, setPredictionHistory] = useState([]);
   const [symptomList, setSymptomList] = useState(FALLBACK_SYMPTOMS);
   const resultRef = useRef(null);
 
-  const saveHistory = (entry) => {
-    const updated = [entry, ...predictionHistory].slice(0, 50);
-    setPredictionHistory(updated);
-    localStorage.setItem("medi_history", JSON.stringify(updated));
+  // ── Firebase Auth listener ──────────────────────────────────────
+  useEffect(() => {
+  const timeout = setTimeout(() => setAuthReady(true), 3000); // fallback
+    const unsub = onAuthStateChanged(firebaseAuth, async (fbUser) => {
+      clearTimeout(timeout);
+      if (fbUser) {
+        setUser({ uid: fbUser.uid, name: fbUser.displayName || fbUser.email, email: fbUser.email });
+        try {
+          const q = query(
+            collection(firestoreDb, "users", fbUser.uid, "predictions"),
+            orderBy("timestamp", "desc"),
+            limit(50)
+          );
+          const snap = await getDocs(q);
+          setPredictionHistory(snap.docs.map(d => ({ id: d.id, ...d.data() })));
+        } catch { /* ignore */ }
+      } else {
+        setUser(null);
+        setPredictionHistory([]);
+      }
+      setAuthReady(true);
+    });
+    return () => { unsub(); clearTimeout(timeout); };
+  }, []);
+
+  const saveHistory = async (entry, fbUid) => {
+    const newEntry = { ...entry, timestamp: serverTimestamp() };
+    try {
+      const ref = await addDoc(collection(firestoreDb, "users", fbUid, "predictions"), newEntry);
+      setPredictionHistory(prev => [{ id: ref.id, ...entry }, ...prev].slice(0, 50));
+    } catch { /* silently fail */ }
   };
-  const loginUser = (userData) => {
-    setUser(userData);
-    localStorage.setItem("medi_user", JSON.stringify(userData));
-  };
-  const logoutUser = () => {
+
+  const logoutUser = async () => {
+    await signOut(firebaseAuth);
     setUser(null);
-    localStorage.removeItem("medi_user");
+    setPredictionHistory([]);
     setPage("home");
     setShowLanding(true);
   };
@@ -661,24 +730,29 @@ export default function MediPredict() {
     if (selected.length === 0) { setError("Please select at least one symptom."); return; }
     setError(""); setLoading(true);
     try {
+      // Get Firebase ID token if logged in, for backend auth
+      const fbUser = firebaseAuth.currentUser;
+      const idToken = fbUser ? await fbUser.getIdToken() : null;
+      const headers = { "Content-Type": "application/json" };
+      if (idToken) headers["Authorization"] = `Bearer ${idToken}`;
+
       const res = await fetch(`${API_BASE}/predict`, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers,
         body: JSON.stringify({ symptoms: selected, age: parseInt(age), gender: sex.toLowerCase(), region, diet_preference: dietPref }),
       });
       if (!res.ok) throw new Error("Server error");
       const data = await res.json();
       setResult(data);
       setStep(2);
-      if (user) {
+      if (user && fbUser) {
         saveHistory({
-          id: Date.now(),
           date: new Date().toLocaleString(),
           age, sex,
           symptoms: selected.map(id => symptomList.find(s => s.id === id)?.label || id),
           topDisease: toSentenceCase(data.predictions[0].disease),
           confidence: Math.round(data.predictions[0].confidence * 100),
-        });
+        }, fbUser.uid);
       }
       setTimeout(() => resultRef.current?.scrollIntoView({ behavior: "smooth" }), 100);
     } catch {
@@ -724,9 +798,13 @@ export default function MediPredict() {
     setChatLoading(true);
     setTimeout(() => chatEndRef.current?.scrollIntoView({ behavior: "smooth" }), 50);
     try {
+      const fbUserChat = firebaseAuth.currentUser;
+      const chatToken = fbUserChat ? await fbUserChat.getIdToken() : null;
+      const chatHeaders = { "Content-Type": "application/json" };
+      if (chatToken) chatHeaders["Authorization"] = `Bearer ${chatToken}`;
       const res = await fetch(`${API_BASE}/chat`, {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
+        headers: chatHeaders,
         body: JSON.stringify({
           messages: [
             ...chatMsgs
@@ -749,6 +827,17 @@ export default function MediPredict() {
       setTimeout(() => chatEndRef.current?.scrollIntoView({ behavior: "smooth" }), 50);
     }
   };
+
+  // ── Auth loading guard ───────────────────────────────────────────
+  if (!authReady) return (
+    <div style={{ minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center", background: "linear-gradient(160deg,#ecfeff,#e0f2fe)" }}>
+      <div style={{ textAlign: "center" }}>
+        <div style={{ width: 48, height: 48, border: "4px solid #b2ebf2", borderTopColor: "#0891b2", borderRadius: "50%", animation: "spin 0.8s linear infinite", margin: "0 auto 16px" }} />
+        <style>{`@keyframes spin { to { transform: rotate(360deg); } }`}</style>
+        <p style={{ color: "#0891b2", fontWeight: 600 }}>Loading MediPredict...</p>
+      </div>
+    </div>
+  );
 
   // ── Landing Page ──────────────────────────────────────────────────
   if (showLanding) return (
@@ -1145,7 +1234,7 @@ export default function MediPredict() {
 
   // ── Login Page ────────────────────────────────────────────────────
   if (!showLanding && page === "login") {
-    return <LoginPage onLogin={(u) => { loginUser(u); setPage("home"); setShowLanding(false); }} onBack={() => { setShowLanding(true); setPage("home"); }} />;
+    return <LoginPage onBack={() => { setShowLanding(false); setPage("home"); }} />;
   }
 
   // ── History Page ──────────────────────────────────────────────────
